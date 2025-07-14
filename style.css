@@ -31,12 +31,14 @@ h1 {
   margin-bottom: 1rem;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  text-wrap-mode: balance;
 }
 
 p {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+  text-wrap-mode: balance;
 }
 
 .hint {
