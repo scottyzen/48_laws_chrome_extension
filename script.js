@@ -1,251 +1,291 @@
 const laws = [
   {
-    title: "Law 1: Never Outshine the Master",
+    lawNumber: 1,
+    title: "Never Outshine the Master",
     summary:
       "Always make those above you feel superior. If you make them appear more brilliant than they are, you will attain power.",
   },
   {
-    title:
-      "Law 2: Never Put Too Much Trust in Friends, Learn How to Use Enemies",
+    lawNumber: 2,
+    title: "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
     summary:
       "Friends are more likely to betray you out of emotion. Former enemies, on the other hand, are motivated by trust earned.",
   },
   {
-    title: "Law 3: Conceal Your Intentions",
+    lawNumber: 3,
+    title: "Conceal Your Intentions",
     summary:
       "Always keep your real plans hidden. If no one knows what you're up to, they can't interfere.",
   },
   {
-    title: "Law 4: Always Say Less Than Necessary",
+    lawNumber: 4,
+    title: "Always Say Less Than Necessary",
     summary:
       "Powerful people intimidate and impress by saying less. The more you say, the more common you appear.",
   },
   {
-    title: "Law 5: So Much Depends on Reputation — Guard It with Your Life",
+    lawNumber: 5,
+    title: "So Much Depends on Reputation — Guard It with Your Life",
     summary:
       "Your reputation is the cornerstone of your power. Protect it and use it to intimidate and win.",
   },
   {
-    title: "Law 6: Court Attention at All Cost",
+    lawNumber: 6,
+    title: "Court Attention at All Cost",
     summary:
       "Stand out. Visibility creates power. Blend in, and you are forgotten.",
   },
   {
-    title:
-      "Law 7: Get Others to Do the Work for You, but Always Take the Credit",
+    lawNumber: 7,
+    title: "Get Others to Do the Work for You, but Always Take the Credit",
     summary:
       "Use others' skill and effort to further your own cause. Never do yourself what others can do for you.",
   },
   {
-    title: "Law 8: Make Other People Come to You — Use Bait if Necessary",
+    lawNumber: 8,
+    title: "Make Other People Come to You — Use Bait if Necessary",
     summary:
       "When you force others to act, you're in control. Lure them and hold the cards.",
   },
   {
-    title: "Law 9: Win Through Your Actions, Never Through Argument",
+    lawNumber: 9,
+    title: "Win Through Your Actions, Never Through Argument",
     summary:
       "Convincing through action is more effective than argument. Words breed resentment, action breeds respect.",
   },
   {
-    title: "Law 10: Infection: Avoid the Unhappy and Unlucky",
+    lawNumber: 10,
+    title: "Infection: Avoid the Unhappy and Unlucky",
     summary:
       "Emotional states are contagious. Associate with the fortunate and the happy.",
   },
   {
-    title: "Law 11: Learn to Keep People Dependent on You",
+    lawNumber: 11,
+    title: "Learn to Keep People Dependent on You",
     summary:
       "To maintain independence, make others depend on you. The more they need you, the more power you have.",
   },
   {
-    title: "Law 12: Use Selective Honesty and Generosity to Disarm Your Victim",
+    lawNumber: 12,
+    title: "Use Selective Honesty and Generosity to Disarm Your Victim",
     summary:
       "One honest gesture can cover many dishonest ones. Generous acts of kindness can disarm even the most suspicious.",
   },
   {
-    title: "Law 13: When Asking for Help, Appeal to People's Self-Interest",
+    lawNumber: 13,
+    title: "When Asking for Help, Appeal to People's Self-Interest",
     summary:
       "If you must ask for help, make sure your request aligns with their interests. People are more likely to help when they benefit.",
   },
   {
-    title: "Law 14: Pose as a Friend, Work as a Spy",
+    lawNumber: 14,
+    title: "Pose as a Friend, Work as a Spy",
     summary:
       "Knowing your rival's secrets gives you power. Get close to learn their weaknesses.",
   },
   {
-    title: "Law 15: Crush Your Enemy Totally",
+    lawNumber: 15,
+    title: "Crush Your Enemy Totally",
     summary:
       "Leave no room for your enemies to recover. Half-measures create more problems than solutions.",
   },
   {
-    title: "Law 16: Use Absence to Increase Respect and Honor",
+    lawNumber: 16,
+    title: "Use Absence to Increase Respect and Honor",
     summary:
       "Too much presence diminishes respect. Create value through scarcity.",
   },
   {
+    lawNumber: 17,
     title:
-      "Law 17: Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
+      "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
     summary:
       "Predictable behavior gives others control over you. Keep them guessing to maintain power.",
   },
   {
+    lawNumber: 18,
     title:
-      "Law 18: Do Not Build Fortresses to Protect Yourself — Isolation is Dangerous",
+      "Do Not Build Fortresses to Protect Yourself — Isolation is Dangerous",
     summary:
       "Isolation cuts you off from information and makes you vulnerable. Stay connected to maintain power.",
   },
   {
-    title:
-      "Law 19: Know Who You're Dealing With — Do Not Offend the Wrong Person",
+    lawNumber: 19,
+    title: "Know Who You're Dealing With — Do Not Offend the Wrong Person",
     summary:
       "Understanding your opponent is crucial. Some people are dangerous to cross.",
   },
   {
-    title: "Law 20: Do Not Commit to Anyone",
+    lawNumber: 20,
+    title: "Do Not Commit to Anyone",
     summary:
       "Independence is power. The moment you commit, you lose options and control.",
   },
   {
-    title:
-      "Law 21: Play a Sucker to Catch a Sucker — Seem Dumber Than Your Mark",
+    lawNumber: 21,
+    title: "Play a Sucker to Catch a Sucker — Seem Dumber Than Your Mark",
     summary:
       "Make your victims feel smarter than you. Their ego will blind them to your true intentions.",
   },
   {
-    title: "Law 22: Use the Surrender Tactic: Transform Weakness into Power",
+    lawNumber: 22,
+    title: "Use the Surrender Tactic: Transform Weakness into Power",
     summary:
       "Sometimes surrender is the best strategy. Use it to lull your enemies into complacency.",
   },
   {
-    title: "Law 23: Concentrate Your Forces",
+    lawNumber: 23,
+    title: "Concentrate Your Forces",
     summary:
       "Focus your efforts and resources. Scattered energy achieves nothing.",
   },
   {
-    title: "Law 24: Play the Perfect Courtier",
+    lawNumber: 24,
+    title: "Play the Perfect Courtier",
     summary:
       "Master the art of indirection. Make others feel important while advancing your own agenda.",
   },
   {
-    title: "Law 25: Re-Create Yourself",
+    lawNumber: 25,
+    title: "Re-Create Yourself",
     summary:
       "Don't accept the role society gives you. Create your own identity and control how others perceive you.",
   },
   {
-    title: "Law 26: Keep Your Hands Clean",
+    lawNumber: 26,
+    title: "Keep Your Hands Clean",
     summary:
       "Mistakes and unpopular decisions should be blamed on others. Use scapegoats to maintain your reputation.",
   },
   {
-    title:
-      "Law 27: Play on People's Need to Believe to Create a Cultlike Following",
+    lawNumber: 27,
+    title: "Play on People's Need to Believe to Create a Cultlike Following",
     summary:
       "People want to believe in something. Give them a cause and they'll follow you devotedly.",
   },
   {
-    title: "Law 28: Enter Action with Boldness",
+    lawNumber: 28,
+    title: "Enter Action with Boldness",
     summary:
       "Timidity is dangerous. Bold action, even if it fails, is better than hesitation.",
   },
   {
-    title: "Law 29: Plan All the Way to the End",
+    lawNumber: 29,
+    title: "Plan All the Way to the End",
     summary:
       "Think through consequences and plan for every contingency. The end is everything.",
   },
   {
-    title: "Law 30: Make Your Accomplishments Seem Effortless",
+    lawNumber: 30,
+    title: "Make Your Accomplishments Seem Effortless",
     summary:
       "Never show the effort behind your success. Make it look natural and easy.",
   },
   {
-    title:
-      "Law 31: Control the Options: Get Others to Play with the Cards You Deal",
+    lawNumber: 31,
+    title: "Control the Options: Get Others to Play with the Cards You Deal",
     summary:
       "Give people choices, but make sure all options benefit you. Control the game.",
   },
   {
-    title: "Law 32: Play to People's Fantasies",
+    lawNumber: 32,
+    title: "Play to People's Fantasies",
     summary:
       "People want to escape harsh realities. Offer them romance and fantasy, and they'll follow you.",
   },
   {
-    title: "Law 33: Discover Each Man's Thumbscrew",
+    lawNumber: 33,
+    title: "Discover Each Man's Thumbscrew",
     summary: "Everyone has a weakness. Find it and you have power over them.",
   },
   {
+    lawNumber: 34,
     title:
-      "Law 34: Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
+      "Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
     summary:
       "How you present yourself determines how others treat you. Carry yourself with dignity and confidence.",
   },
   {
-    title: "Law 35: Master the Art of Timing",
+    lawNumber: 35,
+    title: "Master the Art of Timing",
     summary: "Timing is everything. Learn when to act and when to wait.",
   },
   {
-    title:
-      "Law 36: Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
+    lawNumber: 36,
+    title: "Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
     summary:
       "Showing desire for what you cannot have makes you look weak. Ignore it instead.",
   },
   {
-    title: "Law 37: Create Compelling Spectacles",
+    lawNumber: 37,
+    title: "Create Compelling Spectacles",
     summary:
       "People are drawn to spectacle. Use imagery and symbols to create powerful impressions.",
   },
   {
-    title: "Law 38: Think as You Like but Behave Like Others",
+    lawNumber: 38,
+    title: "Think as You Like but Behave Like Others",
     summary:
       "Unconventional thinking is fine, but appearing too different is dangerous. Blend in while thinking independently.",
   },
   {
-    title: "Law 39: Stir Up Waters to Catch Fish",
+    lawNumber: 39,
+    title: "Stir Up Waters to Catch Fish",
     summary:
       "Anger and emotion make people lose control. Stay calm while making others lose their composure.",
   },
   {
-    title: "Law 40: Despise the Free Lunch",
+    lawNumber: 40,
+    title: "Despise the Free Lunch",
     summary:
       "What's free is often dangerous. Pay your own way to avoid obligations and maintain independence.",
   },
   {
-    title: "Law 41: Avoid Stepping into a Great Man's Shoes",
+    lawNumber: 41,
+    title: "Avoid Stepping into a Great Man's Shoes",
     summary:
       "Following a great predecessor is dangerous. Create your own path and identity.",
   },
   {
-    title: "Law 42: Strike the Shepherd and the Sheep Will Scatter",
+    lawNumber: 42,
+    title: "Strike the Shepherd and the Sheep Will Scatter",
     summary:
       "Trouble often stems from a single source. Identify and neutralize the source of problems.",
   },
   {
-    title: "Law 43: Work on the Hearts and Minds of Others",
+    lawNumber: 43,
+    title: "Work on the Hearts and Minds of Others",
     summary:
       "Coercion creates resistance. Win hearts and minds for lasting power.",
   },
   {
-    title: "Law 44: Disarm and Infuriate with the Mirror Effect",
+    lawNumber: 44,
+    title: "Disarm and Infuriate with the Mirror Effect",
     summary:
       "Mirror your enemies' actions and they'll be confused and frustrated. Use their own tactics against them.",
   },
   {
-    title:
-      "Law 45: Preach the Need for Change, but Never Reform Too Much at Once",
+    lawNumber: 45,
+    title: "Preach the Need for Change, but Never Reform Too Much at Once",
     summary:
       "People need change but fear it. Introduce reforms gradually to avoid resistance.",
   },
   {
-    title: "Law 46: Never Appear Too Perfect",
+    lawNumber: 46,
+    title: "Never Appear Too Perfect",
     summary:
       "Perfection creates envy and suspicion. Show minor flaws to appear more human and relatable.",
   },
   {
+    lawNumber: 47,
     title:
-      "Law 47: Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
+      "Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
     summary:
       "Know when you've won and stop there. Going too far creates new enemies.",
   },
   {
-    title: "Law 48: Assume Formlessness",
+    lawNumber: 48,
+    title: "Assume Formlessness",
     summary:
       "Be flexible and adaptable. Rigid structures are easily broken, but formless things are invincible.",
   },
@@ -288,13 +328,16 @@ function getRandomLaw() {
 function showLaw() {
   const law = getRandomLaw();
 
+  const lawNumberElement = document.getElementById("law-number");
   const titleElement = document.getElementById("law-title");
   const summaryElement = document.getElementById("law-summary");
 
   // Add fade-in animation
+  lawNumberElement.className = "fade-in";
   titleElement.className = "fade-in";
   summaryElement.className = "fade-in";
 
+  lawNumberElement.textContent = `Law ${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
 }
