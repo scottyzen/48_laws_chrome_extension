@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 760px;
   text-align: center;
   padding: 2rem;
 }
 
 .law-number {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: #d4af37;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -26,32 +26,20 @@ body {
   letter-spacing: 1px;
 }
 
-h1 {
+#law-title {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   text-wrap-mode: balance;
+  line-height: 1.5;
 }
 
-p {
+#law-summary {
   font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
+  line-height: 1.5;
+  margin-bottom: 5rem;
   text-wrap-mode: balance;
-}
-
-.hint {
-  font-size: 0.9rem;
-  color: #888;
-  opacity: 0.7;
-  margin-top: 2rem;
-  font-style: italic;
-  transition: opacity 0.3s ease;
-}
-
-.hint:hover {
-  opacity: 1;
 }
 
 .fade-in {
