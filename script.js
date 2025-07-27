@@ -48,6 +48,7 @@ function showSpecificLaw(lawNumber) {
   const lawNumberElement = document.getElementById("law-number");
   const titleElement = document.getElementById("law-title");
   const summaryElement = document.getElementById("law-summary");
+  const takeawaysListElement = document.getElementById("takeaways-list");
 
   // Add fade-in animation
   lawNumberElement.className = "fade-in";
@@ -57,6 +58,17 @@ function showSpecificLaw(lawNumber) {
   lawNumberElement.textContent = `Law ${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
+
+  // Update key takeaways
+  takeawaysListElement.innerHTML = "";
+  if (law.keyTakeaways && law.keyTakeaways.length > 0) {
+    law.keyTakeaways.forEach((takeaway) => {
+      const li = document.createElement("li");
+      li.textContent = takeaway;
+      li.className = "fade-in";
+      takeawaysListElement.appendChild(li);
+    });
+  }
 
   // Highlight the active law number
   highlightActiveLaw(law.lawNumber);
@@ -108,6 +120,7 @@ function showLaw() {
   const lawNumberElement = document.getElementById("law-number");
   const titleElement = document.getElementById("law-title");
   const summaryElement = document.getElementById("law-summary");
+  const takeawaysListElement = document.getElementById("takeaways-list");
 
   // Add fade-in animation
   lawNumberElement.className = "fade-in";
@@ -117,6 +130,17 @@ function showLaw() {
   lawNumberElement.textContent = `Law ${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
+
+  // Update key takeaways
+  takeawaysListElement.innerHTML = "";
+  if (law.keyTakeaways && law.keyTakeaways.length > 0) {
+    law.keyTakeaways.forEach((takeaway) => {
+      const li = document.createElement("li");
+      li.textContent = takeaway;
+      li.className = "fade-in";
+      takeawaysListElement.appendChild(li);
+    });
+  }
 
   // Highlight the active law number
   highlightActiveLaw(law.lawNumber);
