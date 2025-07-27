@@ -7,8 +7,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Georgia", serif;
-  background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
-  color: #f0e6d2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,66 +44,8 @@ body {
 .container {
   width: 100%;
   max-width: 90vw;
-  text-align: center;
   padding: 2rem;
   margin-bottom: 4rem;
-}
-
-hr {
-  border: none;
-  height: 2px;
-  background-color: #1f1f1fff;
-  margin: 2rem 0;
-}
-
-#law-number {
-  font-size: 1.125rem;
-  line-height: 1;
-}
-
-#law-title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-  text-wrap-mode: balance;
-  line-height: 1.35;
-}
-
-#law-summary {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-  text-wrap-mode: balance;
-}
-
-.key-takeaways {
-  text-align: left;
-  margin-top: 2rem;
-  padding-left: 1rem;
-}
-
-.key-takeaways h2 {
-}
-
-#takeaways-list {
-  width: 100%;
-  list-style-type: none;
-  display: flex;
-  flex-weight: wrap;
-  gap: 1rem;
-  justify-content: space-evenly;
-  padding: 0;
-  text-wrap-mode: balance;
-}
-
-#takeaways-list li {
-  font-size: 1rem;
-  color: #f0e6d2;
-  max-width: 240px;
-  line-height: 1.5;
-  tex-wrap-mode: balance;
-  text-align: center;
 }
 
 .fade-in {
@@ -120,75 +60,5 @@ hr {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-/* Subtle hover effect */
-body:hover .container {
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
-}
-
-/* Reset transform when not hovering */
-.container {
-  transform: scale(1);
-  transition: transform 0.3s ease;
-}
-
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-  .number-strip {
-    top: 10px;
-    gap: 6px;
-    max-width: 95vw;
-  }
-
-  .number-item {
-    width: 28px;
-    height: 28px;
-    font-size: 11px;
-  }
-
-  .container {
-    margin-top: 100px;
-    padding: 1rem;
-  }
-
-  #law-title {
-    font-size: 1.5rem;
-  }
-
-  #law-summary {
-    font-size: 1rem;
-  }
-
-  .key-takeaways {
-    padding: 1rem;
-    margin-top: 1.5rem;
-  }
-
-  .key-takeaways h2 {
-    font-size: 1.1rem;
-  }
-
-  #takeaways-list li {
-    font-size: 0.9rem;
-    padding-left: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .number-strip {
-    gap: 4px;
-  }
-
-  .number-item {
-    width: 24px;
-    height: 24px;
-    font-size: 10px;
-  }
-
-  .container {
-    margin-top: 120px;
   }
 }
