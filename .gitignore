@@ -7,6 +7,10 @@
 ehthumbs.db
 Thumbs.db
 
+# Node.js
+node_modules/
+*.log
+
 # Editor files
 .vscode/
 .idea/

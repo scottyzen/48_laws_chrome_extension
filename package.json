@@ -1,0 +1,12 @@
+{
+  "name": "48-laws-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension displaying 48 Laws of Power",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
