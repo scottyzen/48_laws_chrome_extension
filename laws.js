@@ -5,9 +5,9 @@ const laws = [
     summary:
       "Always make those above you feel superior and comfortable with your presence. When you outshine your superiors, you create fear and insecurity that can lead to your downfall. Instead, make them appear more brilliant than they are, and you will gradually attain power through their favor and trust.",
     actionItems: [
-      "Always deflect praise back to your boss in meetings",
-      "Notice when you're about to overshadow someone in authority",
-      "Ask your superior for advice even when you know the answer",
+      "Always deflect praise back to your boss in meetings. Say 'This was only possible because of [boss's] guidance.'",
+      "Notice when you're about to overshadow someone in authority. Pause and redirect credit immediately.",
+      "Ask your superior for advice even when you know the answer. Frame it as 'I'd value your perspective on...'",
     ],
     watchFor: [
       "Subordinates who constantly highlight their achievements around you",
@@ -37,9 +37,9 @@ const laws = [
     summary:
       "Keep your real plans and motivations hidden from others. When people don't know what you're truly after, they cannot prepare defenses or create obstacles to stop you. Reveal your intentions only when it's too late for others to interfere, giving you a significant strategic advantage.",
     actionItems: [
+      "Give vague answers when asked about your future goals. Use phrases like 'exploring several interesting options.'",
       "Never announce your plans until they're already in motion",
-      "Give vague answers when asked about your future goals",
-      "Create small false trails to mislead competitors",
+      "Create small false trails to mislead competitors. Share partial truths that lead nowhere.",
     ],
     watchFor: [
       "People who ask too many detailed questions about your projects",
@@ -53,9 +53,9 @@ const laws = [
     summary:
       "The more you say, the more likely you are to say something foolish or reveal information that can be used against you. Powerful people intimidate and impress others by saying less, creating an aura of mystery and importance. Your words become more valuable when they are scarce.",
     actionItems: [
-      "Count to three before responding in conversations",
-      "Never fill awkward silences - let others do it",
-      "Answer questions with questions when possible",
+      "Count to three before responding in conversations. Breathe, then speak slower than feels natural.",
+      "Never fill awkward silences - let others do it. Count to 5, then wait even longer.",
+      "Answer questions with questions when possible. Try 'What makes you ask that?' or 'How do you see it?'",
     ],
     watchFor: [
       "People who try to make you talk by creating uncomfortable silences",
@@ -69,8 +69,8 @@ const laws = [
     summary:
       "Your reputation is the cornerstone of your power and influence. It precedes you into every room and colors how people interpret your actions. A solid reputation can open doors, while a damaged one can close them permanently. Once lost, reputation is extremely difficult to rebuild, so protecting it should be your highest priority.",
     actionItems: [
+      "Always respond publicly to attacks within 24 hours. Start with 'I appreciate the opportunity to clarify...'",
       "Google yourself monthly to monitor your online reputation",
-      "Always respond publicly to attacks within 24 hours",
       "Build relationships with people who can vouch for your character",
     ],
     watchFor: [
@@ -311,7 +311,7 @@ const laws = [
     summary:
       "Independence is power. The moment you commit, you lose options and control.",
     actionItems: [
-      "Always say 'let me think about it' before making decisions",
+      "Always say 'let me think about it' before making decisions. Buy yourself 24 hours minimum.",
       "Keep multiple job offers open during negotiations",
       "Avoid exclusive partnerships until you absolutely must",
     ],
@@ -343,7 +343,7 @@ const laws = [
     summary:
       "Sometimes surrender is the best strategy. Use it to lull your enemies into complacency.",
     actionItems: [
-      "Say 'you're absolutely right' to defuse tense situations",
+      "Say 'you're absolutely right' to defuse tense situations. Then add 'help me understand your perspective.'",
       "Publicly accept blame to gain sympathy and support",
       "Retreat temporarily to regroup and plan your comeback",
     ],
@@ -375,7 +375,7 @@ const laws = [
     summary:
       "Master the art of indirection. Make others feel important while advancing your own agenda.",
     actionItems: [
-      "Always ask 'What do you think?' before sharing your opinion",
+      "Always ask 'What do you think?' before sharing your opinion. Wait for their full response.",
       "Credit your boss's ideas in your presentations",
       "Make your requests sound like you're helping them succeed",
     ],
@@ -439,8 +439,8 @@ const laws = [
     summary:
       "Timidity is dangerous. Bold action, even if it fails, is better than hesitation.",
     actionItems: [
+      "When entering rooms, walk directly to where you want to be. No hesitation or looking around.",
       "Make decisions quickly and stick to them publicly",
-      "When entering rooms, walk directly to where you want to be",
       "Ask for more than you expect to get",
     ],
     watchFor: [
@@ -535,7 +535,7 @@ const laws = [
     summary:
       "How you present yourself determines how others treat you. Carry yourself with dignity and confidence.",
     actionItems: [
-      "Never slouch - always maintain excellent posture",
+      "Never slouch - always maintain excellent posture. Imagine a string pulling you up from the crown of your head.",
       "Dress slightly better than everyone else in the room",
       "Speak slowly and clearly as if your words carry weight",
     ],
@@ -614,8 +614,8 @@ const laws = [
     summary:
       "Anger and emotion make people lose control. Stay calm while making others lose their composure.",
     actionItems: [
+      "Stay completely calm when others get emotional. Lower your voice and slow your breathing.",
       "Ask probing questions that make people defensive",
-      "Stay completely calm when others get emotional",
       "Use phrases like 'Interesting perspective' to subtly provoke",
     ],
     watchFor: [
