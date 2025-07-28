@@ -88,6 +88,9 @@ function showSpecificLaw(lawNumber) {
   // Highlight the active law number
   highlightActiveLaw(law.lawNumber);
 
+  // Update favorite button
+  updateFavoriteButton();
+
   // Announce the law change to screen readers
   announceToScreenReader(`Law ${law.lawNumber}: ${law.title}`);
 
@@ -115,6 +118,48 @@ function announceToScreenReader(message) {
     document.body.removeChild(announcement);
   }, 1000);
 }
+
+// Favorites functionality
+function getFavorites() {
+  return JSON.parse(localStorage.getItem("favorites") || "[]");
+}
+
+function toggleFavorite() {
+  const currentLaw = getCurrentLawNumber();
+  const favorites = getFavorites();
+  const index = favorites.indexOf(currentLaw);
+
+  if (index > -1) {
+    favorites.splice(index, 1);
+    announceToScreenReader(`Law ${currentLaw} removed from favorites`);
+  } else {
+    favorites.push(currentLaw);
+    announceToScreenReader(`Law ${currentLaw} added to favorites`);
+  }
+
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+  const currentLaw = getCurrentLawNumber();
+  const favorites = getFavorites();
+  const favoriteBtn = document.getElementById("favorite-btn");
+  const favoriteIcon = favoriteBtn.querySelector(".favorite-icon");
+
+  if (favorites.includes(currentLaw)) {
+    favoriteIcon.textContent = "★";
+    favoriteBtn.classList.add("favorited");
+    favoriteBtn.setAttribute("aria-label", "Remove from favorites");
+    favoriteBtn.setAttribute("title", "Remove from favorites");
+  } else {
+    favoriteIcon.textContent = "☆";
+    favoriteBtn.classList.remove("favorited");
+    favoriteBtn.setAttribute("aria-label", "Add to favorites");
+    favoriteBtn.setAttribute("title", "Add to favorites");
+  }
+}
+
 function getRandomLaw() {
   // Get the history of recently shown laws
   const recentLaws = JSON.parse(localStorage.getItem("recentLaws") || "[]");
@@ -173,6 +218,9 @@ function showLaw() {
   // Highlight the active law number
   highlightActiveLaw(law.lawNumber);
 
+  // Update favorite button
+  updateFavoriteButton();
+
   // Announce the law change to screen readers
   announceToScreenReader(`Law ${law.lawNumber}: ${law.title}`);
 }
@@ -181,6 +229,10 @@ function showLaw() {
 document.addEventListener("DOMContentLoaded", () => {
   createNumberStrip();
   showLaw();
+
+  // Add favorite button event listener
+  const favoriteBtn = document.getElementById("favorite-btn");
+  favoriteBtn.addEventListener("click", toggleFavorite);
 
   // Add a subtle click handler to get a new law (optional feature)
   document.addEventListener("click", (e) => {
