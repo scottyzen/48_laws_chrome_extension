@@ -4,10 +4,10 @@ const laws = [
     title: "Never Outshine the Master",
     summary:
       "Always make those above you feel superior. If you make them appear more brilliant than they are, you will attain power.",
-    keyTakeaways: [
-      "Let your superiors take credit and appear more capable",
-      "Downplay your achievements when around those in power",
-      "Make others feel important to gain their favor and protection",
+    actionItems: [
+      "Always deflect praise back to your boss in meetings",
+      "Notice when you're about to overshadow someone in authority",
+      "Ask your superior for advice even when you know the answer",
     ],
   },
   {
@@ -15,10 +15,10 @@ const laws = [
     title: "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
     summary:
       "Friends are more likely to betray you out of emotion. Former enemies, on the other hand, are motivated by trust earned.",
-    keyTakeaways: [
-      "Hire former enemies - they have more to prove",
-      "Friends may betray you out of envy or familiarity",
-      "Keep professional relationships separate from personal ones",
+    actionItems: [
+      "Keep work conversations with friends strictly professional",
+      "Notice when friends become envious of your success",
+      "Consider hiring someone who previously opposed you",
     ],
   },
   {
@@ -26,10 +26,10 @@ const laws = [
     title: "Conceal Your Intentions",
     summary:
       "Always keep your real plans hidden. If no one knows what you're up to, they can't interfere.",
-    keyTakeaways: [
-      "Share false information about your true goals",
-      "Keep your real strategy known only to yourself",
-      "Use misdirection to confuse potential opponents",
+    actionItems: [
+      "Never announce your plans until they're already in motion",
+      "Give vague answers when asked about your future goals",
+      "Create small false trails to mislead competitors",
     ],
   },
   {
@@ -37,10 +37,10 @@ const laws = [
     title: "Always Say Less Than Necessary",
     summary:
       "Powerful people intimidate and impress by saying less. The more you say, the more common you appear.",
-    keyTakeaways: [
-      "Silence creates mystery and commands respect",
-      "The more you reveal, the more vulnerable you become",
-      "Let others fill uncomfortable silences with their secrets",
+    actionItems: [
+      "Count to three before responding in conversations",
+      "Never fill awkward silences - let others do it",
+      "Answer questions with questions when possible",
     ],
   },
   {
@@ -48,10 +48,10 @@ const laws = [
     title: "So Much Depends on Reputation: Guard It with Your Life",
     summary:
       "Your reputation is the cornerstone of your power. Protect it and use it to intimidate and win.",
-    keyTakeaways: [
-      "Reputation determines how others perceive and treat you",
-      "Defend against attacks on your character immediately",
-      "Build a reputation that precedes you in every situation",
+    actionItems: [
+      "Google yourself monthly to monitor your online reputation",
+      "Always respond publicly to attacks within 24 hours",
+      "Build relationships with people who can vouch for your character",
     ],
   },
   {
@@ -59,10 +59,10 @@ const laws = [
     title: "Court Attention at All Cost",
     summary:
       "Stand out. Visibility creates power. Blend in, and you are forgotten.",
-    keyTakeaways: [
-      "Create controversy or mystery to stay in people's minds",
-      "Being ignored is worse than being disliked",
-      "Use bold actions and striking imagery to capture attention",
+    actionItems: [
+      "Wear one distinctive item that people remember you by",
+      "Share contrarian opinions in meetings to spark debate",
+      "Post content that generates comments, not just likes",
     ],
   },
   {
@@ -70,10 +70,10 @@ const laws = [
     title: "Get Others to Do the Work for You, but Always Take the Credit",
     summary:
       "Use others' skill and effort to further your own cause. Never do yourself what others can do for you.",
-    keyTakeaways: [
-      "Delegate tasks while maintaining control of the outcome",
-      "Your reputation grows when you're associated with success",
-      "Save your energy for decisions only you can make",
+    actionItems: [
+      "Always present team results as 'we accomplished' but personal wins as 'I delivered'",
+      "Delegate tasks but control the final presentation",
+      "Hire specialists for work outside your core strengths",
     ],
   },
   {
@@ -81,10 +81,10 @@ const laws = [
     title: "Make Other People Come to You: Use Bait if Necessary",
     summary:
       "When you force others to act, you're in control. Lure them and hold the cards.",
-    keyTakeaways: [
-      "Control the playing field by making others approach you",
-      "Create attractive opportunities that serve your interests",
-      "Force opponents to react to your moves, not the reverse",
+    actionItems: [
+      "Never chase clients - create offers that make them approach you",
+      "Post valuable content and let people ask for more details",
+      "Schedule meetings at your location whenever possible",
     ],
   },
   {
@@ -92,10 +92,10 @@ const laws = [
     title: "Win Through Your Actions, Never Through Argument",
     summary:
       "Convincing through action is more effective than argument. Words breed resentment, action breeds respect.",
-    keyTakeaways: [
-      "Demonstrate your point through results, not debate",
-      "Arguments create enemies, successful actions create admirers",
-      "Let your achievements speak louder than your words",
+    actionItems: [
+      "Show results instead of explaining your methods",
+      "When someone doubts you, prove them wrong with performance",
+      "Avoid debates - just outperform your critics",
     ],
   },
   {
@@ -103,10 +103,10 @@ const laws = [
     title: "Infection: Avoid the Unhappy and Unlucky",
     summary:
       "Emotional states are contagious. Associate with the fortunate and the happy.",
-    keyTakeaways: [
-      "Negative people will drain your energy and optimism",
-      "Success breeds success through positive associations",
-      "Choose your social circle based on their influence on you",
+    actionItems: [
+      "Notice when someone consistently complains - limit contact",
+      "Spend more time with people who are winning at life",
+      "Leave conversations immediately when they turn to gossip",
     ],
   },
   {
@@ -114,10 +114,10 @@ const laws = [
     title: "Learn to Keep People Dependent on You",
     summary:
       "To maintain independence, make others depend on you. The more they need you, the more power you have.",
-    keyTakeaways: [
-      "Become indispensable by controlling key resources or skills",
-      "Never teach everything you know to anyone",
-      "Create systems where your absence would cause problems",
+    actionItems: [
+      "Control access to key resources others need",
+      "Never fully train your replacement",
+      "Be the only person who knows certain critical passwords or processes",
     ],
   },
   {
@@ -125,10 +125,10 @@ const laws = [
     title: "Use Selective Honesty and Generosity to Disarm Your Victim",
     summary:
       "One honest gesture can cover many dishonest ones. Generous acts of kindness can disarm even the most suspicious.",
-    keyTakeaways: [
-      "Strategic honesty can build trust for larger deceptions",
-      "Small generosities can create big debts of gratitude",
-      "Disarm suspicion with unexpected kindness",
+    actionItems: [
+      "Admit to a small mistake to build trust before a bigger move",
+      "Buy lunch for people you're about to negotiate with",
+      "Share one genuine secret to encourage others to share theirs",
     ],
   },
   {
@@ -136,10 +136,10 @@ const laws = [
     title: "When Asking for Help, Appeal to People's Self-Interest",
     summary:
       "If you must ask for help, make sure your request aligns with their interests. People are more likely to help when they benefit.",
-    keyTakeaways: [
-      "Frame requests in terms of what others will gain",
-      "Research what motivates the person you're asking",
-      "Never assume people will help out of pure goodwill",
+    actionItems: [
+      "Before asking, research what the person wants to achieve",
+      "Frame your request as 'this will help you get [their goal]'",
+      "Never ask for favors - always offer mutual benefit",
     ],
   },
   {
@@ -147,10 +147,10 @@ const laws = [
     title: "Pose as a Friend, Work as a Spy",
     summary:
       "Knowing your rival's secrets gives you power. Get close to learn their weaknesses.",
-    keyTakeaways: [
-      "Information is power - gather it through relationships",
-      "Ask probing questions while appearing genuinely interested",
-      "Use casual conversations to uncover important details",
+    actionItems: [
+      "Ask 'How are things at work?' and listen for complaints",
+      "Remember personal details people share - use them later",
+      "Invite competitors for coffee to learn their strategies",
     ],
   },
   {
@@ -158,10 +158,10 @@ const laws = [
     title: "Crush Your Enemy Totally",
     summary:
       "Leave no room for your enemies to recover. Half-measures create more problems than solutions.",
-    keyTakeaways: [
-      "Incomplete victories often lead to future revenge",
-      "Show mercy only when it serves your strategic interests",
-      "Eliminate threats completely or don't engage at all",
+    actionItems: [
+      "When firing someone, cut all access immediately",
+      "Don't leave enemies in positions where they can retaliate",
+      "If you're going to compete, aim to dominate completely",
     ],
   },
   {
@@ -169,10 +169,10 @@ const laws = [
     title: "Use Absence to Increase Respect and Honor",
     summary:
       "Too much presence diminishes respect. Create value through scarcity.",
-    keyTakeaways: [
-      "Scarcity increases perceived value and desire",
-      "Withdraw strategically to make others appreciate you more",
-      "Too much availability makes you seem common",
+    actionItems: [
+      "Don't always be available - let some calls go to voicemail",
+      "Take strategic breaks from social media to create mystery",
+      "Cancel some social events to make your presence more valued",
     ],
   },
   {
@@ -181,10 +181,10 @@ const laws = [
       "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
     summary:
       "Predictable behavior gives others control over you. Keep them guessing to maintain power.",
-    keyTakeaways: [
-      "Unpredictability prevents others from planning against you",
-      "Vary your patterns to maintain psychological advantage",
-      "Controlled chaos keeps opponents off balance",
+    actionItems: [
+      "Change your routine regularly so others can't predict your schedule",
+      "Sometimes be generous, sometimes be tough - vary your approach",
+      "Arrive early to some meetings, fashionably late to others",
     ],
   },
   {
@@ -193,10 +193,10 @@ const laws = [
       "Do Not Build Fortresses to Protect Yourself: Isolation is Dangerous",
     summary:
       "Isolation cuts you off from information and makes you vulnerable. Stay connected to maintain power.",
-    keyTakeaways: [
-      "Stay connected to networks and information sources",
-      "Isolation breeds paranoia and poor decision-making",
-      "Maintain visibility to gauge public opinion and threats",
+    actionItems: [
+      "Attend industry events even when you don't want to",
+      "Keep relationships warm with former colleagues",
+      "Never turn down invitations completely - counter-offer",
     ],
   },
   {
@@ -204,10 +204,10 @@ const laws = [
     title: "Know Who You're Dealing With: Do Not Offend the Wrong Person",
     summary:
       "Understanding your opponent is crucial. Some people are dangerous to cross.",
-    keyTakeaways: [
-      "Research people before engaging with them",
-      "Some enemies are too powerful or vengeful to provoke",
-      "Different personality types require different approaches",
+    actionItems: [
+      "Research people on LinkedIn before important meetings",
+      "Ask mutual connections about someone's temperament before engaging",
+      "Notice who holds grudges vs. who forgives quickly",
     ],
   },
   {
@@ -215,10 +215,10 @@ const laws = [
     title: "Do Not Commit to Anyone",
     summary:
       "Independence is power. The moment you commit, you lose options and control.",
-    keyTakeaways: [
-      "Keep multiple options open at all times",
-      "Commitment limits your flexibility and negotiating power",
-      "Play different parties against each other",
+    actionItems: [
+      "Always say 'let me think about it' before making decisions",
+      "Keep multiple job offers open during negotiations",
+      "Avoid exclusive partnerships until you absolutely must",
     ],
   },
   {
@@ -226,10 +226,10 @@ const laws = [
     title: "Play a Sucker to Catch a Sucker: Seem Dumber Than Your Mark",
     summary:
       "Make your victims feel smarter than you. Their ego will blind them to your true intentions.",
-    keyTakeaways: [
-      "Let others underestimate your intelligence and capabilities",
-      "People drop their guard around those they perceive as inferior",
-      "Appearing naive makes others reveal their true plans",
+    actionItems: [
+      "Ask obvious questions to make others feel superior",
+      "Let people explain things you already understand",
+      "Act impressed by common knowledge they share",
     ],
   },
   {
@@ -237,10 +237,10 @@ const laws = [
     title: "Use the Surrender Tactic: Transform Weakness into Power",
     summary:
       "Sometimes surrender is the best strategy. Use it to lull your enemies into complacency.",
-    keyTakeaways: [
-      "Strategic retreat can be more powerful than direct confrontation",
-      "Surrender can make enemies overconfident and careless",
-      "Use apparent defeat to gather strength for future victory",
+    actionItems: [
+      "Say 'you're absolutely right' to defuse tense situations",
+      "Publicly accept blame to gain sympathy and support",
+      "Retreat temporarily to regroup and plan your comeback",
     ],
   },
   {
@@ -248,10 +248,10 @@ const laws = [
     title: "Concentrate Your Forces",
     summary:
       "Focus your efforts and resources. Scattered energy achieves nothing.",
-    keyTakeaways: [
-      "Focus all resources on one clear objective at a time",
-      "Scattered efforts lead to mediocre results everywhere",
-      "Overwhelming force in one area is better than weak efforts in many",
+    actionItems: [
+      "Work on one major project at a time instead of multitasking",
+      "Invest heavily in your strongest skill rather than fixing weaknesses",
+      "Choose one networking event per month and dominate it",
     ],
   },
   {
@@ -259,10 +259,10 @@ const laws = [
     title: "Play the Perfect Courtier",
     summary:
       "Master the art of indirection. Make others feel important while advancing your own agenda.",
-    keyTakeaways: [
-      "Flatter superiors while subtly advancing your position",
-      "Never appear to be seeking power directly",
-      "Make your ambitions seem to serve others' interests",
+    actionItems: [
+      "Always ask 'What do you think?' before sharing your opinion",
+      "Credit your boss's ideas in your presentations",
+      "Make your requests sound like you're helping them succeed",
     ],
   },
   {
@@ -270,10 +270,10 @@ const laws = [
     title: "Re-Create Yourself",
     summary:
       "Don't accept the role society gives you. Create your own identity and control how others perceive you.",
-    keyTakeaways: [
-      "Take control of your image and reputation",
-      "Reinvent yourself to escape limiting expectations",
-      "Create mystery and intrigue around your persona",
+    actionItems: [
+      "Develop a signature style that makes you memorable",
+      "Tell stories that reinforce the image you want to project",
+      "Reinvent your background narrative to support your goals",
     ],
   },
   {
@@ -281,10 +281,10 @@ const laws = [
     title: "Keep Your Hands Clean",
     summary:
       "Mistakes and unpopular decisions should be blamed on others. Use scapegoats to maintain your reputation.",
-    keyTakeaways: [
-      "Use others to do your dirty work and take the blame",
-      "Maintain plausible deniability for controversial actions",
-      "Your reputation is more valuable than loyalty to subordinates",
+    actionItems: [
+      "Always have someone else deliver bad news",
+      "When things go wrong, immediately identify what went wrong, not who",
+      "Take credit for successes, let others own the failures",
     ],
   },
   {
@@ -292,10 +292,10 @@ const laws = [
     title: "Play on People's Need to Believe to Create a Cultlike Following",
     summary:
       "People want to believe in something. Give them a cause and they'll follow you devotedly.",
-    keyTakeaways: [
-      "Offer people a grand vision or cause to believe in",
-      "Create rituals and symbols that reinforce loyalty",
-      "People prefer comforting lies to harsh truths",
+    actionItems: [
+      "Create a mission statement that makes people feel part of something bigger",
+      "Use 'we' language to build tribal identity",
+      "Give followers symbols or phrases that unite them",
     ],
   },
   {
@@ -303,10 +303,10 @@ const laws = [
     title: "Enter Action with Boldness",
     summary:
       "Timidity is dangerous. Bold action, even if it fails, is better than hesitation.",
-    keyTakeaways: [
-      "Confidence and boldness intimidate opponents",
-      "Hesitation reveals weakness and invites attack",
-      "Bold moves can succeed through sheer audacity alone",
+    actionItems: [
+      "Make decisions quickly and stick to them publicly",
+      "When entering rooms, walk directly to where you want to be",
+      "Ask for more than you expect to get",
     ],
   },
   {
@@ -314,10 +314,10 @@ const laws = [
     title: "Plan All the Way to the End",
     summary:
       "Think through consequences and plan for every contingency. The end is everything.",
-    keyTakeaways: [
-      "Consider all possible outcomes before acting",
-      "Have backup plans for when things go wrong",
-      "The end result matters more than the means",
+    actionItems: [
+      "Write down what success looks like before starting any project",
+      "Create backup plans for your backup plans",
+      "Always know your exit strategy before entering situations",
     ],
   },
   {
@@ -325,10 +325,10 @@ const laws = [
     title: "Make Your Accomplishments Seem Effortless",
     summary:
       "Never show the effort behind your success. Make it look natural and easy.",
-    keyTakeaways: [
-      "Hide the work and struggle behind your achievements",
-      "Appearing effortless suggests natural superiority",
-      "People respect what seems to come naturally",
+    actionItems: [
+      "Never complain about how hard you're working",
+      "Practice presentations until they seem spontaneous",
+      "Hide the preparation and highlight the results",
     ],
   },
   {
@@ -336,10 +336,10 @@ const laws = [
     title: "Control the Options: Get Others to Play with the Cards You Deal",
     summary:
       "Give people choices, but make sure all options benefit you. Control the game.",
-    keyTakeaways: [
-      "Frame choices so all outcomes serve your interests",
-      "People feel free when choosing between predetermined options",
-      "Control the environment rather than forcing specific actions",
+    actionItems: [
+      "Present multiple proposals where all outcomes serve your interests",
+      "Set the agenda for meetings so discussions follow your priorities",
+      "Offer choices like 'Would Tuesday or Wednesday work better for you?'",
     ],
   },
   {
@@ -347,20 +347,20 @@ const laws = [
     title: "Play to People's Fantasies",
     summary:
       "People want to escape harsh realities. Offer them romance and fantasy, and they'll follow you.",
-    keyTakeaways: [
-      "Sell dreams and aspirations, not just practical benefits",
-      "People will pay premium prices for fantasies and status",
-      "Reality is often too harsh - offer appealing alternatives",
+    actionItems: [
+      "Sell the vision of who they could become, not just what you offer",
+      "Use aspirational language that makes people dream bigger",
+      "Paint pictures of their ideal future when making proposals",
     ],
   },
   {
     lawNumber: 33,
     title: "Discover Each Man's Thumbscrew",
     summary: "Everyone has a weakness. Find it and you have power over them.",
-    keyTakeaways: [
-      "Identify what each person fears, desires, or needs most",
-      "Use psychological weaknesses as leverage points",
-      "People's insecurities are often their greatest vulnerabilities",
+    actionItems: [
+      "Notice what makes people emotional during conversations",
+      "Pay attention to what people brag about - it reveals insecurities",
+      "Ask 'What keeps you up at night?' and listen carefully",
     ],
   },
   {
@@ -369,20 +369,20 @@ const laws = [
       "Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
     summary:
       "How you present yourself determines how others treat you. Carry yourself with dignity and confidence.",
-    keyTakeaways: [
-      "Project confidence and authority in your demeanor",
-      "People respond to how you value and present yourself",
-      "Royal bearing commands respect even without formal power",
+    actionItems: [
+      "Never slouch - always maintain excellent posture",
+      "Dress slightly better than everyone else in the room",
+      "Speak slowly and clearly as if your words carry weight",
     ],
   },
   {
     lawNumber: 35,
     title: "Master the Art of Timing",
     summary: "Timing is everything. Learn when to act and when to wait.",
-    keyTakeaways: [
-      "Wait for the perfect moment rather than forcing action",
-      "Patience can be more powerful than immediate action",
-      "Read the mood and context before making moves",
+    actionItems: [
+      "Notice when people are stressed - avoid making requests then",
+      "Make important asks when people are in good moods",
+      "Wait for competitors to make mistakes before making your move",
     ],
   },
   {
@@ -390,10 +390,10 @@ const laws = [
     title: "Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
     summary:
       "Showing desire for what you cannot have makes you look weak. Ignore it instead.",
-    keyTakeaways: [
-      "Indifference hurts more than anger or attention",
-      "Don't let others see what you desperately want",
-      "Act as if unattainable things are beneath your notice",
+    actionItems: [
+      "Act unimpressed when you don't get what you wanted",
+      "Never publicly pine for opportunities that went to others",
+      "Redirect conversations away from topics that highlight your losses",
     ],
   },
   {
@@ -401,10 +401,10 @@ const laws = [
     title: "Create Compelling Spectacles",
     summary:
       "People are drawn to spectacle. Use imagery and symbols to create powerful impressions.",
-    keyTakeaways: [
-      "Visual impact often matters more than substance",
-      "Create memorable moments that people will talk about",
-      "Use symbols and imagery to communicate power",
+    actionItems: [
+      "Make your presentations visually stunning, not just informative",
+      "Use props and demonstrations instead of just talking",
+      "Create photo-worthy moments at your events",
     ],
   },
   {
@@ -412,10 +412,10 @@ const laws = [
     title: "Think as You Like but Behave Like Others",
     summary:
       "Unconventional thinking is fine, but appearing too different is dangerous. Blend in while thinking independently.",
-    keyTakeaways: [
-      "Conform outwardly while maintaining inner independence",
-      "Standing out too much invites hostility and suspicion",
-      "Save your unconventional ideas for the right moments",
+    actionItems: [
+      "Dress according to the company culture, even if you prefer different styles",
+      "Use industry jargon even if you find it silly",
+      "Keep radical opinions to yourself until you have power",
     ],
   },
   {
@@ -423,10 +423,10 @@ const laws = [
     title: "Stir Up Waters to Catch Fish",
     summary:
       "Anger and emotion make people lose control. Stay calm while making others lose their composure.",
-    keyTakeaways: [
-      "Maintain emotional control while provoking others to lose theirs",
-      "Angry people make mistakes and reveal information",
-      "Use calm detachment as a weapon against emotional opponents",
+    actionItems: [
+      "Ask probing questions that make people defensive",
+      "Stay completely calm when others get emotional",
+      "Use phrases like 'Interesting perspective' to subtly provoke",
     ],
   },
   {
@@ -434,10 +434,10 @@ const laws = [
     title: "Despise the Free Lunch",
     summary:
       "What's free is often dangerous. Pay your own way to avoid obligations and maintain independence.",
-    keyTakeaways: [
-      "Free gifts often come with hidden strings attached",
-      "Paying your way maintains your independence and dignity",
-      "Generosity can be a tool for creating obligation and control",
+    actionItems: [
+      "Always insist on paying your share of dinner bills",
+      "Decline free gifts that come with unspoken expectations",
+      "Question any offer that seems too good to be true",
     ],
   },
   {
@@ -445,10 +445,10 @@ const laws = [
     title: "Avoid Stepping into a Great Man's Shoes",
     summary:
       "Following a great predecessor is dangerous. Create your own path and identity.",
-    keyTakeaways: [
-      "Establish your own style rather than copying predecessors",
-      "Comparisons to great predecessors are usually unfavorable",
-      "Create a new direction rather than continuing old ones",
+    actionItems: [
+      "Never say 'That's how [predecessor] used to do it'",
+      "Immediately change at least one visible process or tradition",
+      "Establish your own metrics for success instead of using theirs",
     ],
   },
   {
@@ -456,10 +456,10 @@ const laws = [
     title: "Strike the Shepherd and the Sheep Will Scatter",
     summary:
       "Trouble often stems from a single source. Identify and neutralize the source of problems.",
-    keyTakeaways: [
-      "Identify the key troublemaker or leader causing problems",
-      "Removing the source often solves multiple issues at once",
-      "Focus on root causes rather than symptoms",
+    actionItems: [
+      "Identify who's leading the resistance to your ideas",
+      "Address the ringleader directly rather than fighting the group",
+      "Remove or convert the key influencer to solve multiple problems",
     ],
   },
   {
@@ -467,10 +467,10 @@ const laws = [
     title: "Work on the Hearts and Minds of Others",
     summary:
       "Coercion creates resistance. Win hearts and minds for lasting power.",
-    keyTakeaways: [
-      "Persuasion is more effective than force in the long term",
-      "Appeal to emotions and self-interest, not just logic",
-      "Make people want to follow you rather than forcing compliance",
+    actionItems: [
+      "Share personal stories that make people connect with you emotionally",
+      "Ask 'How do you feel about this?' not just 'What do you think?'",
+      "Make people feel heard before trying to change their minds",
     ],
   },
   {
@@ -478,10 +478,10 @@ const laws = [
     title: "Disarm and Infuriate with the Mirror Effect",
     summary:
       "Mirror your enemies' actions and they'll be confused and frustrated. Use their own tactics against them.",
-    keyTakeaways: [
-      "Copy opponents' strategies to neutralize their advantage",
-      "Mirroring behavior creates confusion and self-doubt",
-      "Turn enemies' strengths into weaknesses by reflecting them",
+    actionItems: [
+      "Copy your competitor's successful strategies with improvements",
+      "Use their own words against them in debates",
+      "Adopt their communication style to confuse their supporters",
     ],
   },
   {
@@ -489,10 +489,10 @@ const laws = [
     title: "Preach the Need for Change, but Never Reform Too Much at Once",
     summary:
       "People need change but fear it. Introduce reforms gradually to avoid resistance.",
-    keyTakeaways: [
-      "Gradual change faces less resistance than sudden transformation",
-      "Respect traditions while slowly introducing improvements",
-      "People fear rapid change even when it benefits them",
+    actionItems: [
+      "Implement changes in small phases over time",
+      "Keep some familiar elements while introducing new ones",
+      "Frame changes as 'evolution' not 'revolution'",
     ],
   },
   {
@@ -500,10 +500,10 @@ const laws = [
     title: "Never Appear Too Perfect",
     summary:
       "Perfection creates envy and suspicion. Show minor flaws to appear more human and relatable.",
-    keyTakeaways: [
-      "Display harmless weaknesses to deflect envy",
-      "Perfect people seem inhuman and threatening",
-      "Small flaws make your successes more acceptable to others",
+    actionItems: [
+      "Admit to harmless weaknesses like being bad at cooking",
+      "Share embarrassing but endearing stories about yourself",
+      "Make small, visible mistakes that don't affect your core competency",
     ],
   },
   {
@@ -512,10 +512,10 @@ const laws = [
       "Do Not Go Past the Mark You Aimed For; In Victory, Learn When to Stop",
     summary:
       "Know when you've won and stop there. Going too far creates new enemies.",
-    keyTakeaways: [
-      "Victory can become defeat if you don't know when to stop",
-      "Excessive success breeds resentment and counterattacks",
-      "Set clear objectives and stop when you achieve them",
+    actionItems: [
+      "Set clear victory conditions before starting conflicts",
+      "Stop negotiating once you've gotten what you wanted",
+      "Don't humiliate defeated opponents - leave them dignity",
     ],
   },
   {
@@ -523,10 +523,10 @@ const laws = [
     title: "Assume Formlessness",
     summary:
       "Be flexible and adaptable. Rigid structures are easily broken, but formless things are invincible.",
-    keyTakeaways: [
-      "Stay flexible and adaptable to changing circumstances",
-      "Avoid rigid patterns that enemies can predict and counter",
-      "Formlessness makes you impossible to attack directly",
+    actionItems: [
+      "Change your approach when current methods aren't working",
+      "Avoid creating predictable routines that others can exploit",
+      "Stay flexible enough to pivot when circumstances change",
     ],
   },
 ];

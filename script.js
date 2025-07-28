@@ -75,12 +75,12 @@ function showSpecificLaw(lawNumber) {
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
 
-  // Update key takeaways
+  // Update action items
   takeawaysListElement.innerHTML = "";
-  if (law.keyTakeaways && law.keyTakeaways.length > 0) {
-    law.keyTakeaways.forEach((takeaway) => {
+  if (law.actionItems && law.actionItems.length > 0) {
+    law.actionItems.forEach((item) => {
       const li = document.createElement("li");
-      li.textContent = takeaway;
+      li.textContent = item;
       takeawaysListElement.appendChild(li);
     });
   }
@@ -225,12 +225,12 @@ function showLaw() {
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
 
-  // Update key takeaways
+  // Update action items
   takeawaysListElement.innerHTML = "";
-  if (law.keyTakeaways && law.keyTakeaways.length > 0) {
-    law.keyTakeaways.forEach((takeaway) => {
+  if (law.actionItems && law.actionItems.length > 0) {
+    law.actionItems.forEach((item) => {
       const li = document.createElement("li");
-      li.textContent = takeaway;
+      li.textContent = item;
       takeawaysListElement.appendChild(li);
     });
   }
