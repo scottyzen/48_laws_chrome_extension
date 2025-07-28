@@ -83,7 +83,7 @@ const laws = [
     lawNumber: 6,
     title: "Court Attention at All Cost",
     summary:
-      "Stand out. Visibility creates power. Blend in, and you are forgotten.",
+      "Stand out from the crowd through bold actions and distinctive presence. Visibility creates power and opportunities, while anonymity leads to irrelevance. Everything turns on the quality of attention you receive - scandal is better than obscurity. Make yourself a magnet for notice by being dramatic, mysterious, or controversial.",
     actionItems: [
       "Wear one distinctive item that people remember you by",
       "Share contrarian opinions in meetings to spark debate",
@@ -99,7 +99,7 @@ const laws = [
     lawNumber: 7,
     title: "Get Others to Do the Work for You, but Always Take the Credit",
     summary:
-      "Use others' skill and effort to further your own cause. Never do yourself what others can do for you.",
+      "Use others' skills, knowledge, and efforts to further your own cause while positioning yourself as the architect of success. Never do yourself what others can do for you - this conserves your energy for higher-level strategy. The key is to appear as the mastermind while others execute the details.",
     actionItems: [
       "Always present team results as 'we accomplished' but personal wins as 'I delivered'",
       "Delegate tasks but control the final presentation",
@@ -115,7 +115,7 @@ const laws = [
     lawNumber: 8,
     title: "Make Other People Come to You: Use Bait if Necessary",
     summary:
-      "When you force others to act, you're in control. Lure them and hold the cards.",
+      "When you force others to act, you control the situation and hold all the advantages. Lure them to your territory or make them seek you out rather than chasing after them. This puts you in the superior position where you dictate terms and timing while they reveal their desperation.",
     actionItems: [
       "Never chase clients - create offers that make them approach you",
       "Post valuable content and let people ask for more details",
@@ -131,7 +131,7 @@ const laws = [
     lawNumber: 9,
     title: "Win Through Your Actions, Never Through Argument",
     summary:
-      "Convincing through action is more effective than argument. Words breed resentment, action breeds respect.",
+      "Convincing through demonstration is infinitely more powerful than argument. Words breed resentment and defensive reactions, while actions breed respect and compliance. Let your results speak louder than your reasoning - people may doubt what you say, but they cannot argue with what you accomplish.",
     actionItems: [
       "Show results instead of explaining your methods",
       "When someone doubts you, prove them wrong with performance",
@@ -147,7 +147,7 @@ const laws = [
     lawNumber: 10,
     title: "Infection: Avoid the Unhappy and Unlucky",
     summary:
-      "Emotional states are contagious. Associate with the fortunate and the happy.",
+      "Emotional states and fortune are highly contagious - misery spreads faster than joy. Associate with the successful and positive to absorb their energy and opportunities. The chronically unhappy will drain your vitality and attract problems to your life. Choose your companions wisely, as their fate often becomes yours.",
     actionItems: [
       "Notice when someone consistently complains - limit contact",
       "Spend more time with people who are winning at life",
@@ -163,7 +163,7 @@ const laws = [
     lawNumber: 11,
     title: "Learn to Keep People Dependent on You",
     summary:
-      "To maintain independence, make others depend on you. The more they need you, the more power you have.",
+      "To maintain your independence and power, make others depend on you for their success. The more they need you, the more security and influence you possess. Create situations where your absence would cause significant problems, making you indispensable rather than merely useful.",
     actionItems: [
       "Control access to key resources others need",
       "Never fully train your replacement",
@@ -179,7 +179,7 @@ const laws = [
     lawNumber: 12,
     title: "Use Selective Honesty and Generosity to Disarm Your Victim",
     summary:
-      "One honest gesture can cover many dishonest ones. Generous acts of kindness can disarm even the most suspicious.",
+      "One honest gesture can cover many dishonest ones, while generous acts of kindness can disarm even the most suspicious individuals. Strategic vulnerability and calculated generosity create trust and lower people's defenses. Use these moments of openness to gather information or position yourself for future advantage.",
     actionItems: [
       "Admit to a small mistake to build trust before a bigger move",
       "Buy lunch for people you're about to negotiate with",
@@ -195,7 +195,7 @@ const laws = [
     lawNumber: 13,
     title: "When Asking for Help, Appeal to People's Self-Interest",
     summary:
-      "If you must ask for help, make sure your request aligns with their interests. People are more likely to help when they benefit.",
+      "If you must ask for help, make sure your request aligns with their personal interests and goals. People are fundamentally motivated by what benefits them, not what benefits you. Frame every request in terms of their gain, their advancement, or their success to dramatically increase your chances of getting what you want.",
     actionItems: [
       "Before asking, research what the person wants to achieve",
       "Frame your request as 'this will help you get [their goal]'",
@@ -211,7 +211,7 @@ const laws = [
     lawNumber: 14,
     title: "Pose as a Friend, Work as a Spy",
     summary:
-      "Knowing your rival's secrets gives you power. Get close to learn their weaknesses.",
+      "Knowing your rival's secrets, weaknesses, and plans gives you tremendous power over them. Get close to gather intelligence while appearing friendly and harmless. People reveal their vulnerabilities to those they trust, so cultivate relationships that give you access to valuable information you can use strategically.",
     actionItems: [
       "Ask 'How are things at work?' and listen for complaints",
       "Remember personal details people share - use them later",
@@ -227,7 +227,7 @@ const laws = [
     lawNumber: 15,
     title: "Crush Your Enemy Totally",
     summary:
-      "Leave no room for your enemies to recover. Half-measures create more problems than solutions.",
+      "Leave no room for your enemies to recover or seek revenge. Half-measures and mercy create more dangerous problems than total victory. When you decide to act against someone, do it completely and decisively. Enemies left alive and able to retaliate will dedicate their existence to your destruction.",
     actionItems: [
       "When firing someone, cut all access immediately",
       "Don't leave enemies in positions where they can retaliate",
@@ -243,7 +243,7 @@ const laws = [
     lawNumber: 16,
     title: "Use Absence to Increase Respect and Honor",
     summary:
-      "Too much presence diminishes respect. Create value through scarcity.",
+      "Too much presence diminishes respect and creates familiarity that breeds contempt. Create value through scarcity - make yourself less available to increase demand for your attention. Strategic absence makes people appreciate and desire your presence more, while constant availability makes you seem desperate and ordinary.",
     actionItems: [
       "Don't always be available - let some calls go to voicemail",
       "Take strategic breaks from social media to create mystery",
@@ -260,7 +260,7 @@ const laws = [
     title:
       "Keep Others in Suspended Terror: Cultivate an Air of Unpredictability",
     summary:
-      "Predictable behavior gives others control over you. Keep them guessing to maintain power.",
+      "Predictable behavior gives others control over you because they can anticipate and counter your moves. Keep them guessing through calculated unpredictability to maintain psychological power. When people cannot predict your reactions or decisions, they remain on edge and cannot prepare effective strategies against you.",
     actionItems: [
       "Change your routine regularly so others can't predict your schedule",
       "Sometimes be generous, sometimes be tough - vary your approach",
@@ -277,7 +277,7 @@ const laws = [
     title:
       "Do Not Build Fortresses to Protect Yourself: Isolation is Dangerous",
     summary:
-      "Isolation cuts you off from information and makes you vulnerable. Stay connected to maintain power.",
+      "Isolation cuts you off from vital information, allies, and opportunities, making you vulnerable to attacks you cannot see coming. Stay connected to maintain power and awareness. Your network is your early warning system and your source of strength - without it, you become an easy target for enemies who can strike unseen.",
     actionItems: [
       "Attend industry events even when you don't want to",
       "Keep relationships warm with former colleagues",
@@ -293,7 +293,7 @@ const laws = [
     lawNumber: 19,
     title: "Know Who You're Dealing With: Do Not Offend the Wrong Person",
     summary:
-      "Understanding your opponent is crucial. Some people are dangerous to cross.",
+      "Understanding your opponent's character, connections, and capabilities is crucial for survival and success. Some people are dangerous to cross due to their vindictive nature, powerful allies, or capacity for revenge. Research and assess everyone before engaging, because one wrong move against the wrong person can destroy everything you've built.",
     actionItems: [
       "Research people on LinkedIn before important meetings",
       "Ask mutual connections about someone's temperament before engaging",
@@ -309,7 +309,7 @@ const laws = [
     lawNumber: 20,
     title: "Do Not Commit to Anyone",
     summary:
-      "Independence is power. The moment you commit, you lose options and control.",
+      "Independence is the foundation of power. The moment you commit exclusively to anyone, you lose options, flexibility, and control over your destiny. Keep multiple paths open and avoid being trapped by promises or obligations that limit your freedom to maneuver when circumstances change.",
     actionItems: [
       "Always say 'let me think about it' before making decisions. Buy yourself 24 hours minimum.",
       "Keep multiple job offers open during negotiations",
@@ -325,7 +325,7 @@ const laws = [
     lawNumber: 21,
     title: "Play a Sucker to Catch a Sucker: Seem Dumber Than Your Mark",
     summary:
-      "Make your victims feel smarter than you. Their ego will blind them to your true intentions.",
+      "Make your targets feel intellectually superior to you so their ego blinds them to your true intentions. When people think they're smarter than you, they become overconfident and reveal information they should keep secret. Use their condescension as a weapon - let them underestimate you while you gather intelligence and position yourself for victory.",
     actionItems: [
       "Ask obvious questions to make others feel superior",
       "Let people explain things you already understand",
@@ -341,7 +341,7 @@ const laws = [
     lawNumber: 22,
     title: "Use the Surrender Tactic: Transform Weakness into Power",
     summary:
-      "Sometimes surrender is the best strategy. Use it to lull your enemies into complacency.",
+      "Sometimes strategic surrender is the most powerful move you can make. Use apparent defeat to lull your enemies into complacency while you secretly regroup and plan your comeback. Surrender can buy you time, sympathy, and the element of surprise when you eventually strike back stronger than before.",
     actionItems: [
       "Say 'you're absolutely right' to defuse tense situations. Then add 'help me understand your perspective.'",
       "Publicly accept blame to gain sympathy and support",
@@ -357,7 +357,7 @@ const laws = [
     lawNumber: 23,
     title: "Concentrate Your Forces",
     summary:
-      "Focus your efforts and resources. Scattered energy achieves nothing.",
+      "Focus your efforts, resources, and energy on single objectives rather than scattering them across multiple targets. Scattered energy achieves nothing significant, while concentrated force can overcome seemingly impossible obstacles. Choose your battles carefully and commit fully to winning them decisively.",
     actionItems: [
       "Work on one major project at a time instead of multitasking",
       "Invest heavily in your strongest skill rather than fixing weaknesses",
@@ -373,7 +373,7 @@ const laws = [
     lawNumber: 24,
     title: "Play the Perfect Courtier",
     summary:
-      "Master the art of indirection. Make others feel important while advancing your own agenda.",
+      "Master the art of indirection and subtle influence in hierarchical environments. A courtier succeeds by making superiors feel important while carefully advancing their own agenda. Avoid outright criticism or confrontation - instead, use flattery, timing, and strategic positioning to gain favor and influence. Make yourself indispensable through service while building your own power base.",
     actionItems: [
       "Always ask 'What do you think?' before sharing your opinion. Wait for their full response.",
       "Credit your boss's ideas in your presentations",
@@ -389,7 +389,7 @@ const laws = [
     lawNumber: 25,
     title: "Re-Create Yourself",
     summary:
-      "Don't accept the role society gives you. Create your own identity and control how others perceive you.",
+      "Don't accept the role society gives you - forge your own identity and control how others perceive you. Create a powerful persona that serves your goals by carefully crafting your image, story, and presentation. Reinvent yourself as often as necessary to stay relevant and powerful. Your identity is your most important creation and your greatest tool for influence.",
     actionItems: [
       "Develop a signature style that makes you memorable",
       "Tell stories that reinforce the image you want to project",
@@ -405,7 +405,7 @@ const laws = [
     lawNumber: 26,
     title: "Keep Your Hands Clean",
     summary:
-      "Mistakes and unpopular decisions should be blamed on others. Use scapegoats to maintain your reputation.",
+      "Maintain your reputation and moral authority by ensuring that mistakes, dirty work, and unpopular decisions are associated with others, not you. Use scapegoats and intermediaries to handle controversial matters while you remain above the fray. Your image of integrity and competence is too valuable to risk - let others take the blame while you take the credit.",
     actionItems: [
       "Always have someone else deliver bad news",
       "When things go wrong, immediately identify what went wrong, not who",
@@ -421,7 +421,7 @@ const laws = [
     lawNumber: 27,
     title: "Play on People's Need to Believe to Create a Cultlike Following",
     summary:
-      "People want to believe in something. Give them a cause and they'll follow you devotedly.",
+      "People desperately want to believe in something greater than themselves. Give them a cause, vision, or movement they can dedicate themselves to, and they'll follow you with religious devotion. Create rituals, symbols, and shared beliefs that bond your followers together while positioning yourself as their leader and guide to a better future.",
     actionItems: [
       "Create a mission statement that makes people feel part of something bigger",
       "Use 'we' language to build tribal identity",
@@ -437,7 +437,7 @@ const laws = [
     lawNumber: 28,
     title: "Enter Action with Boldness",
     summary:
-      "Timidity is dangerous. Bold action, even if it fails, is better than hesitation.",
+      "Timidity and hesitation are more dangerous than boldness, even when that boldness borders on audacity. Bold action inspires confidence in others and intimidates opponents, while hesitation signals weakness and invites attack. When you act, do so with complete conviction and overwhelming force - half-hearted measures achieve nothing and create more problems than decisive action.",
     actionItems: [
       "When entering rooms, walk directly to where you want to be. No hesitation or looking around.",
       "Make decisions quickly and stick to them publicly",
@@ -453,7 +453,7 @@ const laws = [
     lawNumber: 29,
     title: "Plan All the Way to the End",
     summary:
-      "Think through consequences and plan for every contingency. The end is everything.",
+      "Think through every consequence and plan for every contingency before you begin. Most people plan only for the beginning and middle stages, leaving themselves vulnerable to unforeseen complications. By planning to the end, you maintain control over circumstances and can adapt when others are caught off guard. The end justifies everything - so know exactly what your end looks like.",
     actionItems: [
       "Write down what success looks like before starting any project",
       "Create backup plans for your backup plans",
@@ -469,7 +469,7 @@ const laws = [
     lawNumber: 30,
     title: "Make Your Accomplishments Seem Effortless",
     summary:
-      "Never show the effort behind your success. Make it look natural and easy.",
+      "Never reveal the effort, struggle, or planning behind your successes. When achievements appear effortless and natural, they seem more impressive and create an aura of superior ability. The appearance of ease suggests mastery and natural talent, while visible effort suggests limitation and struggle. Make your power look like a gift rather than hard work.",
     actionItems: [
       "Never complain about how hard you're working",
       "Practice presentations until they seem spontaneous",
@@ -485,7 +485,7 @@ const laws = [
     lawNumber: 31,
     title: "Control the Options: Get Others to Play with the Cards You Deal",
     summary:
-      "Give people choices, but make sure all options benefit you. Control the game.",
+      "Give people choices, but make sure all available options benefit you. By controlling the alternatives, you control the outcome while letting others feel they're making free decisions. Set the parameters of every decision and frame the options so that no matter what people choose, you win. This creates the illusion of fairness while ensuring your advantage.",
     actionItems: [
       "Present multiple proposals where all outcomes serve your interests",
       "Set the agenda for meetings so discussions follow your priorities",
@@ -501,7 +501,7 @@ const laws = [
     lawNumber: 32,
     title: "Play to People's Fantasies",
     summary:
-      "People want to escape harsh realities. Offer them romance and fantasy, and they'll follow you.",
+      "People prefer pleasant illusions to harsh realities. Give them romance, adventure, and dreams of transformation rather than practical benefits, and they'll follow you anywhere. Appeal to their desire to escape mundane life and become someone greater. Fantasy has more power than reality because it speaks to people's deepest desires and aspirations.",
     actionItems: [
       "Sell the vision of who they could become, not just what you offer",
       "Use aspirational language that makes people dream bigger",
@@ -516,7 +516,8 @@ const laws = [
   {
     lawNumber: 33,
     title: "Discover Each Man's Thumbscrew",
-    summary: "Everyone has a weakness. Find it and you have power over them.",
+    summary:
+      "Everyone has a weakness, insecurity, or need that can be exploited for influence. Find what motivates them most deeply - whether it's vanity, greed, fear, or desire for recognition. Once you understand their emotional triggers and vulnerabilities, you hold the key to controlling their behavior and decisions.",
     actionItems: [
       "Notice what makes people emotional during conversations",
       "Pay attention to what people brag about - it reveals insecurities",
@@ -533,7 +534,7 @@ const laws = [
     title:
       "Be Royal in Your Own Fashion: Act Like a King to Be Treated Like One",
     summary:
-      "How you present yourself determines how others treat you. Carry yourself with dignity and confidence.",
+      "How you present yourself determines how others treat you. Carry yourself with dignity, confidence, and nobility, and people will respond with respect and deference. Demand the treatment you deserve through your bearing and self-presentation rather than through words. Act like royalty - not through arrogance, but through unshakeable self-confidence and grace.",
     actionItems: [
       "Never slouch - always maintain excellent posture. Imagine a string pulling you up from the crown of your head.",
       "Dress slightly better than everyone else in the room",
@@ -548,7 +549,8 @@ const laws = [
   {
     lawNumber: 35,
     title: "Master the Art of Timing",
-    summary: "Timing is everything. Learn when to act and when to wait.",
+    summary:
+      "Timing is everything in the pursuit of power. Learn to recognize the right moment to act and the wisdom to wait when circumstances aren't favorable. Strike when your opponents are weak, approach people when they're receptive, and retreat when forces are aligned against you. Perfect timing can make a mediocre plan succeed, while poor timing can destroy brilliant strategies.",
     actionItems: [
       "Notice when people are stressed - avoid making requests then",
       "Make important asks when people are in good moods",
