@@ -16,11 +16,8 @@ body {
 }
 
 .number-strip {
-  position: fixed;
-  width: 100%;
   top: 20px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 8px;
   z-index: 100;
@@ -77,4 +74,12 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
 }
