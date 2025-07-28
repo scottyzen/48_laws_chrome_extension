@@ -219,18 +219,16 @@ document.addEventListener("keydown", function (e) {
   switch (e.key) {
     case "ArrowLeft":
       e.preventDefault();
-      if (currentLaw > 1) {
-        showSpecificLaw(currentLaw - 1);
-        announceToScreenReader(`Previous law: ${currentLaw - 1}`);
-      }
+      const prevLaw = currentLaw > 1 ? currentLaw - 1 : 48;
+      showSpecificLaw(prevLaw);
+      announceToScreenReader(`Previous law: ${prevLaw}`);
       break;
 
     case "ArrowRight":
       e.preventDefault();
-      if (currentLaw < 48) {
-        showSpecificLaw(currentLaw + 1);
-        announceToScreenReader(`Next law: ${currentLaw + 1}`);
-      }
+      const nextLaw = currentLaw < 48 ? currentLaw + 1 : 1;
+      showSpecificLaw(nextLaw);
+      announceToScreenReader(`Next law: ${nextLaw}`);
       break;
 
     case " ":
