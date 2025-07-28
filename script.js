@@ -6,15 +6,27 @@ function createNumberStrip() {
   const numberStrip = document.getElementById("number-strip");
 
   for (let i = 1; i <= 48; i++) {
-    const numberItem = document.createElement("div");
-    numberItem.className = "number-item";
+    const numberItem = document.createElement("button");
+    numberItem.className = "number-item number-pill";
     numberItem.textContent = i;
     numberItem.setAttribute("data-law-number", i);
+    numberItem.setAttribute("aria-label", `Go to law ${i}`);
+    numberItem.setAttribute("role", "button");
+    numberItem.setAttribute("tabindex", "0");
 
     // Add click handler to jump to specific law
     numberItem.addEventListener("click", (e) => {
       e.stopPropagation();
       showSpecificLaw(i);
+    });
+
+    // Add keyboard handler for Enter and Space
+    numberItem.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        e.stopPropagation();
+        showSpecificLaw(i);
+      }
     });
 
     numberStrip.appendChild(numberItem);
@@ -27,6 +39,7 @@ function highlightActiveLaw(lawNumber) {
   const previousActive = document.querySelector(".number-item.active");
   if (previousActive) {
     previousActive.classList.remove("active");
+    previousActive.setAttribute("aria-pressed", "false");
   }
 
   // Add active state to current law
@@ -35,9 +48,17 @@ function highlightActiveLaw(lawNumber) {
   );
   if (currentActive) {
     currentActive.classList.add("active");
+    currentActive.setAttribute("aria-pressed", "true");
+    currentActive.setAttribute(
+      "aria-label",
+      `Current law ${lawNumber} (active)`
+    );
   }
 
   currentLawNumber = lawNumber;
+
+  // Update page title for screen readers
+  document.title = `Law ${lawNumber} - 48 Laws of Power`;
 }
 
 // Function to show a specific law by number
@@ -67,6 +88,9 @@ function showSpecificLaw(lawNumber) {
   // Highlight the active law number
   highlightActiveLaw(law.lawNumber);
 
+  // Announce the law change to screen readers
+  announceToScreenReader(`Law ${law.lawNumber}: ${law.title}`);
+
   // Update recent laws history
   const recentLaws = JSON.parse(localStorage.getItem("recentLaws") || "[]");
   const lawIndex = laws.findIndex((l) => l.lawNumber === lawNumber) || 0;
@@ -74,6 +98,22 @@ function showSpecificLaw(lawNumber) {
     recentLaws.push(lawIndex);
     localStorage.setItem("recentLaws", JSON.stringify(recentLaws));
   }
+}
+
+// Function to announce content changes to screen readers
+function announceToScreenReader(message) {
+  const announcement = document.createElement("div");
+  announcement.setAttribute("aria-live", "polite");
+  announcement.setAttribute("aria-atomic", "true");
+  announcement.className = "sr-only";
+  announcement.textContent = message;
+
+  document.body.appendChild(announcement);
+
+  // Remove the announcement after it's been read
+  setTimeout(() => {
+    document.body.removeChild(announcement);
+  }, 1000);
 }
 function getRandomLaw() {
   // Get the history of recently shown laws
@@ -132,6 +172,9 @@ function showLaw() {
 
   // Highlight the active law number
   highlightActiveLaw(law.lawNumber);
+
+  // Announce the law change to screen readers
+  announceToScreenReader(`Law ${law.lawNumber}: ${law.title}`);
 }
 
 // Initialize when DOM is loaded
