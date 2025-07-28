@@ -582,7 +582,7 @@ const laws = [
     lawNumber: 37,
     title: "Create Compelling Spectacles",
     summary:
-      "People are drawn to spectacle. Use imagery and symbols to create powerful impressions.",
+      "People are drawn to spectacle and memorable imagery more than to logical arguments. Use dramatic visual displays, symbols, and theatrical presentations to make powerful impressions that bypass rational thought and appeal directly to emotions. A well-crafted spectacle can accomplish in minutes what words might never achieve.",
     actionItems: [
       "Make your presentations visually stunning, not just informative",
       "Use props and demonstrations instead of just talking",
@@ -598,7 +598,7 @@ const laws = [
     lawNumber: 38,
     title: "Think as You Like but Behave Like Others",
     summary:
-      "Unconventional thinking is fine, but appearing too different is dangerous. Blend in while thinking independently.",
+      "Unconventional thinking gives you an advantage, but appearing too different is dangerous and isolating. Blend in with social norms and expectations while maintaining your independent thought processes. Save your nonconformity for your private thoughts and strategic planning - publicly, be conventional enough to avoid suspicion and hostility.",
     actionItems: [
       "Dress according to the company culture, even if you prefer different styles",
       "Use industry jargon even if you find it silly",
