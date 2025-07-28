@@ -41,6 +41,21 @@ body {
   color: #ef4444;
 }
 
+.number-item.favorited {
+  position: relative;
+}
+
+.number-item.favorited::after {
+  content: "●";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 6px;
+  color: #ef4444;
+  opacity: 0.8;
+}
+
 .container {
   width: 100%;
   max-width: 90vw;

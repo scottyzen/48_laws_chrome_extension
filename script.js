@@ -158,6 +158,26 @@ function updateFavoriteButton() {
     favoriteBtn.setAttribute("aria-label", "Add to favorites");
     favoriteBtn.setAttribute("title", "Add to favorites");
   }
+
+  // Update favorite indicators in number strip
+  updateFavoriteIndicators();
+}
+
+// Function to update favorite indicators in the number strip
+function updateFavoriteIndicators() {
+  const favorites = getFavorites();
+  const numberItems = document.querySelectorAll(".number-item");
+
+  numberItems.forEach((item) => {
+    const lawNumber = parseInt(item.getAttribute("data-law-number"));
+    if (favorites.includes(lawNumber)) {
+      item.classList.add("favorited");
+      item.setAttribute("aria-label", `Go to law ${lawNumber} (favorited)`);
+    } else {
+      item.classList.remove("favorited");
+      item.setAttribute("aria-label", `Go to law ${lawNumber}`);
+    }
+  });
 }
 
 function getRandomLaw() {
@@ -229,6 +249,9 @@ function showLaw() {
 document.addEventListener("DOMContentLoaded", () => {
   createNumberStrip();
   showLaw();
+
+  // Update favorite indicators after creating the number strip
+  updateFavoriteIndicators();
 
   // Add favorite button event listener
   const favoriteBtn = document.getElementById("favorite-btn");
