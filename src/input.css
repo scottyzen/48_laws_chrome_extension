@@ -29,16 +29,12 @@ body {
   font-size: 14px;
 }
 
-.number-item {
-  color: #bcbcbc7e;
-}
-
 .number-item:hover {
-  color: #fff;
+  color: #ef4444;
 }
 
 .number-item.active {
-  color: #fff;
+  color: #ef4444;
 }
 
 .container {

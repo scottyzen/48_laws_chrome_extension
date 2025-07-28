@@ -116,7 +116,7 @@ function showLaw() {
   const summaryElement = document.getElementById("law-summary");
   const takeawaysListElement = document.getElementById("takeaways-list");
 
-  lawNumberElement.textContent = `Law ${law.lawNumber}`;
+  lawNumberElement.textContent = `Law #${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
 
