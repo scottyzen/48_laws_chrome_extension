@@ -189,3 +189,53 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Helper function to get current law number
+function getCurrentLawNumber() {
+  return currentLawNumber || 1;
+}
+
+// Function to show random law
+function showRandomLaw() {
+  showLaw();
+  announceToScreenReader("Showing random law");
+}
+
+// Keyboard shortcuts
+document.addEventListener("keydown", function (e) {
+  // Don't interfere with input fields or when modifier keys are pressed
+  if (
+    e.target.tagName === "INPUT" ||
+    e.target.tagName === "TEXTAREA" ||
+    e.ctrlKey ||
+    e.metaKey ||
+    e.altKey
+  ) {
+    return;
+  }
+
+  const currentLaw = getCurrentLawNumber();
+
+  switch (e.key) {
+    case "ArrowLeft":
+      e.preventDefault();
+      if (currentLaw > 1) {
+        showSpecificLaw(currentLaw - 1);
+        announceToScreenReader(`Previous law: ${currentLaw - 1}`);
+      }
+      break;
+
+    case "ArrowRight":
+      e.preventDefault();
+      if (currentLaw < 48) {
+        showSpecificLaw(currentLaw + 1);
+        announceToScreenReader(`Next law: ${currentLaw + 1}`);
+      }
+      break;
+
+    case " ":
+      e.preventDefault();
+      showRandomLaw();
+      break;
+  }
+});
