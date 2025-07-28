@@ -600,6 +600,26 @@ video {
   display: none;
 }
 
+.min-h-\[500px\] {
+  min-height: 500px;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -610,6 +630,10 @@ video {
 
 .text-balance {
   text-wrap: balance;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .pl-4 {
@@ -673,7 +697,6 @@ body {
   gap: 8px;
   z-index: 100;
   margin-inline: auto;
-  max-width: 90vw;
   font-size: 14px;
 }
 

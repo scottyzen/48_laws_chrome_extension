@@ -45,7 +45,7 @@ const laws = [
   },
   {
     lawNumber: 5,
-    title: "So Much Depends on Reputation — Guard It with Your Life",
+    title: "So Much Depends on Reputation: Guard It with Your Life",
     summary:
       "Your reputation is the cornerstone of your power. Protect it and use it to intimidate and win.",
     keyTakeaways: [
@@ -78,7 +78,7 @@ const laws = [
   },
   {
     lawNumber: 8,
-    title: "Make Other People Come to You — Use Bait if Necessary",
+    title: "Make Other People Come to You: Use Bait if Necessary",
     summary:
       "When you force others to act, you're in control. Lure them and hold the cards.",
     keyTakeaways: [
@@ -190,7 +190,7 @@ const laws = [
   {
     lawNumber: 18,
     title:
-      "Do Not Build Fortresses to Protect Yourself — Isolation is Dangerous",
+      "Do Not Build Fortresses to Protect Yourself: Isolation is Dangerous",
     summary:
       "Isolation cuts you off from information and makes you vulnerable. Stay connected to maintain power.",
     keyTakeaways: [
@@ -201,7 +201,7 @@ const laws = [
   },
   {
     lawNumber: 19,
-    title: "Know Who You're Dealing With — Do Not Offend the Wrong Person",
+    title: "Know Who You're Dealing With: Do Not Offend the Wrong Person",
     summary:
       "Understanding your opponent is crucial. Some people are dangerous to cross.",
     keyTakeaways: [
@@ -223,7 +223,7 @@ const laws = [
   },
   {
     lawNumber: 21,
-    title: "Play a Sucker to Catch a Sucker — Seem Dumber Than Your Mark",
+    title: "Play a Sucker to Catch a Sucker: Seem Dumber Than Your Mark",
     summary:
       "Make your victims feel smarter than you. Their ego will blind them to your true intentions.",
     keyTakeaways: [
