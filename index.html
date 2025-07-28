@@ -3,57 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive guide to The 48 Laws of Power by Robert Greene - Explore each law with summaries, takeaways, and practical advice"
+    />
     <title>48 Laws of Power - New Tab</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="text-gray-900">
+    <!-- Skip navigation for screen readers -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-blue-600 focus:text-white focus:px-4 focus:py-2 focus:rounded"
+    >
+      Skip to main content
+    </a>
+
     <!-- Screen reader instructions -->
-    <div class="sr-only" id="accessibility-info">
-      48 Laws of Power interactive guide. Use tab to navigate between laws, enter to select. Keyboard shortcuts: Arrow keys to navigate, spacebar for random law.
+    <div
+      class="sr-only"
+      id="accessibility-info"
+      role="region"
+      aria-label="Application instructions"
+    >
+      48 Laws of Power interactive guide. Use tab to navigate between laws,
+      enter to select. Keyboard shortcuts: Arrow keys to navigate, spacebar for
+      random law.
     </div>
-    
-    <div class="number-strip max-w-7xl p-4" id="number-strip" role="navigation" aria-label="Law selection navigation"></div>
-    <div class="max-w-7xl p-4 min-h-[500px] flex-1 flex flex-col justify-center">
-      <div class="law-header flex items-center gap-2">
-        <div id="law-number" class="text-red-500 text-sm aria-label="Law number"></div>
-        <button id="favorite-btn" class="favorite-btn" aria-label="Toggle favorite" title="Add to favorites">
-          <span class="favorite-icon">☆</span>
+
+    <header class="bg-white mx-auto flex w-full justify-center">
+      <nav
+        class="number-strip max-w-7xl p-4 mx-auto"
+        id="number-strip"
+        role="navigation"
+        aria-label="Law selection navigation"
+      >
+        <!-- Navigation will be populated by JavaScript -->
+      </nav>
+    </header>
+
+    <main
+      class="max-w-7xl p-4 min-h-[500px] flex-1 flex flex-col justify-center"
+      id="main-content"
+      role="main"
+    >
+      <header class="law-header flex items-center gap-2">
+        <div
+          id="law-number"
+          class="text-red-500 text-sm"
+          aria-label="Law number"
+        ></div>
+        <button
+          id="favorite-btn"
+          class="favorite-btn"
+          aria-label="Toggle favorite"
+          title="Add to favorites"
+          type="button"
+        >
+          <span class="favorite-icon" aria-hidden="true">☆</span>
         </button>
-      </div>
-      <h1 id="law-title" class="text-5xl mb-20 max-w-6xl text-balance" role="heading" aria-level="1"></h1>
-      <div class="grid gap-8 lg:gap-16 lg:grid-cols-3 md:grid-cols-2">
-        <div class="text-left">
-          <h2 class="text-red-500 text-sm mb-2" role="heading" aria-level="2">Summary</h2>
+      </header>
+      <h1 id="law-title" class="text-5xl mb-20 max-w-6xl text-balance"></h1>
+      <section
+        class="grid gap-8 lg:gap-16 lg:grid-cols-3 md:grid-cols-2"
+        role="region"
+        aria-label="Law details"
+      >
+        <article class="text-left">
+          <h2 class="text-red-500 text-sm mb-2">Summary</h2>
           <p id="law-summary" class="text-lg text-balance"></p>
-        </div>
-        <div class="action-items" id="action-items">
-          <h2 class="text-red-500 text-sm mb-2 role="heading" aria-level="2">Takeaways</h2>
-          <ul id="action-items-list" class="list-disc pl-4 text-lg" role="list"></ul>
-        </div>
-        <div class="watch-for" id="watch-for">
-          <h2 class="text-red-500 text-sm mb-2 role="heading" aria-level="2">What to Watch For</h2>
-          <ul id="watch-for-list" class="list-disc pl-4 text-lg" role="list"></ul>
-        </div>
-      </div>
-      </div>
-    </div>
-    
+        </article>
+        <article class="action-items" id="action-items">
+          <h2 class="text-red-500 text-sm mb-2">Takeaways</h2>
+          <ul id="action-items-list" class="list-disc pl-4 text-lg"></ul>
+        </article>
+        <article class="watch-for" id="watch-for">
+          <h2 class="text-red-500 text-sm mb-2">What to Watch For</h2>
+          <ul id="watch-for-list" class="list-disc pl-4 text-lg"></ul>
+        </article>
+      </section>
+    </main>
+
     <!-- Book Information Footer -->
-    <footer class="max-w-6xl p-4 mt-8 border-t border-gray-200 w-full">
+    <footer
+      class="max-w-6xl p-4 mt-8 border-t border-gray-200 w-full"
+      role="contentinfo"
+    >
       <div class="text-center text-sm text-gray-600">
         <p class="mb-2">
-          Based on <a 
-          href="https://www.amazon.co.uk/48-Laws-Power-Robert-Greene/dp/0140280197?tag=scottyzen-21" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          class="text-bold text-red-600 hover:underline transition-colors
-          "
-          aria-label="Buy The 48 Laws of Power book on Amazon (opens in new tab)"
-        >The 48 Laws of Power</a> by <a href="https://powerseductionandwar.com/" target="_blank" rel="noopener noreferrer" class="text-bold text-red-600 hover:underline transition-colors" aria-label="Visit Robert Greene's official website (opens in new tab)">Robert Greene</a>
+          Based on
+          <a
+            href="https://www.amazon.co.uk/48-Laws-Power-Robert-Greene/dp/0140280197?tag=scottyzen-21"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-bold text-red-600 hover:underline transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+            aria-label="Buy The 48 Laws of Power book on Amazon (opens in new tab)"
+            >The 48 Laws of Power</a
+          >
+          by
+          <a
+            href="https://powerseductionandwar.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-bold text-red-600 hover:underline transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+            aria-label="Visit Robert Greene's official website (opens in new tab)"
+            >Robert Greene</a
+          >
         </p>
       </div>
     </footer>
-    
+
     <script src="laws.js"></script>
     <script src="script.js"></script>
   </body>
