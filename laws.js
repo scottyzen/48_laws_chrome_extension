@@ -566,7 +566,7 @@ const laws = [
     lawNumber: 36,
     title: "Disdain Things You Cannot Have: Ignoring Them Is the Best Revenge",
     summary:
-      "Showing desire for what you cannot have makes you look weak. Ignore it instead.",
+      "Showing desire for what you cannot obtain makes you appear weak and desperate. Instead, act as if you never wanted it in the first place - this preserves your dignity and often makes others reconsider its value. By publicly disdaining what you cannot have, you turn your weakness into apparent strength and maintain your reputation for being above petty desires.",
     actionItems: [
       "Act unimpressed when you don't get what you wanted",
       "Never publicly pine for opportunities that went to others",
