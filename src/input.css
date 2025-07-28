@@ -28,6 +28,12 @@ body {
   font-size: 14px;
 }
 
+@media (max-width: 600px) {
+  .number-strip {
+    justify-content: center;
+  }
+}
+
 .number-item:hover {
   color: #ef4444;
 }

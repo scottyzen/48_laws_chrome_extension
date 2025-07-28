@@ -604,28 +604,20 @@ video {
   min-height: 500px;
 }
 
-.max-w-5xl {
-  max-width: 64rem;
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .max-w-6xl {
   max-width: 72rem;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .list-disc {
   list-style-type: disc;
 }
 
-.gap-24 {
-  gap: 6rem;
+.gap-16 {
+  gap: 4rem;
 }
 
 .text-balance {
@@ -700,6 +692,12 @@ body {
   font-size: 14px;
 }
 
+@media (max-width: 600px) {
+  .number-strip {
+    justify-content: center;
+  }
+}
+
 .number-item:hover {
   color: #ef4444;
 }
@@ -734,5 +732,11 @@ body {
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:gap-24 {
+    gap: 6rem;
   }
 }
