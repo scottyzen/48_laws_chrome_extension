@@ -50,11 +50,6 @@ function showSpecificLaw(lawNumber) {
   const summaryElement = document.getElementById("law-summary");
   const takeawaysListElement = document.getElementById("takeaways-list");
 
-  // Add fade-in animation while preserving existing classes
-  lawNumberElement.classList.add("fade-in");
-  titleElement.classList.add("fade-in");
-  summaryElement.classList.add("fade-in");
-
   lawNumberElement.textContent = `Law ${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
@@ -65,7 +60,6 @@ function showSpecificLaw(lawNumber) {
     law.keyTakeaways.forEach((takeaway) => {
       const li = document.createElement("li");
       li.textContent = takeaway;
-      li.classList.add("fade-in");
       takeawaysListElement.appendChild(li);
     });
   }
@@ -122,11 +116,6 @@ function showLaw() {
   const summaryElement = document.getElementById("law-summary");
   const takeawaysListElement = document.getElementById("takeaways-list");
 
-  // Add fade-in animation while preserving existing classes
-  lawNumberElement.classList.add("fade-in");
-  titleElement.classList.add("fade-in");
-  summaryElement.classList.add("fade-in");
-
   lawNumberElement.textContent = `Law ${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
@@ -137,7 +126,6 @@ function showLaw() {
     law.keyTakeaways.forEach((takeaway) => {
       const li = document.createElement("li");
       li.textContent = takeaway;
-      li.classList.add("fade-in");
       takeawaysListElement.appendChild(li);
     });
   }

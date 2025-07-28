@@ -604,6 +604,10 @@ video {
   max-width: 36rem;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -614,6 +618,10 @@ video {
 
 .gap-24 {
   gap: 6rem;
+}
+
+.text-balance {
+  text-wrap: balance;
 }
 
 .pl-6 {
@@ -640,6 +648,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-red-200 {
