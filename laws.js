@@ -3,7 +3,7 @@ const laws = [
     lawNumber: 1,
     title: "Never Outshine the Master",
     summary:
-      "Always make those above you feel superior. If you make them appear more brilliant than they are, you will attain power.",
+      "Always make those above you feel superior and comfortable with your presence. When you outshine your superiors, you create fear and insecurity that can lead to your downfall. Instead, make them appear more brilliant than they are, and you will gradually attain power through their favor and trust.",
     actionItems: [
       "Always deflect praise back to your boss in meetings",
       "Notice when you're about to overshadow someone in authority",
@@ -19,7 +19,7 @@ const laws = [
     lawNumber: 2,
     title: "Never Put Too Much Trust in Friends, Learn How to Use Enemies",
     summary:
-      "Friends are more likely to betray you out of emotion. Former enemies, on the other hand, are motivated by trust earned.",
+      "Friends are more likely to betray you because emotions like envy and resentment can cloud their judgment. They may feel entitled to your success or become jealous of your achievements. Former enemies, however, have already shown their worst side and must work harder to prove their loyalty, making them potentially more reliable allies.",
     actionItems: [
       "Keep work conversations with friends strictly professional",
       "Notice when friends become envious of your success",
@@ -35,7 +35,7 @@ const laws = [
     lawNumber: 3,
     title: "Conceal Your Intentions",
     summary:
-      "Always keep your real plans hidden. If no one knows what you're up to, they can't interfere.",
+      "Keep your real plans and motivations hidden from others. When people don't know what you're truly after, they cannot prepare defenses or create obstacles to stop you. Reveal your intentions only when it's too late for others to interfere, giving you a significant strategic advantage.",
     actionItems: [
       "Never announce your plans until they're already in motion",
       "Give vague answers when asked about your future goals",
@@ -51,7 +51,7 @@ const laws = [
     lawNumber: 4,
     title: "Always Say Less Than Necessary",
     summary:
-      "Powerful people intimidate and impress by saying less. The more you say, the more common you appear.",
+      "The more you say, the more likely you are to say something foolish or reveal information that can be used against you. Powerful people intimidate and impress others by saying less, creating an aura of mystery and importance. Your words become more valuable when they are scarce.",
     actionItems: [
       "Count to three before responding in conversations",
       "Never fill awkward silences - let others do it",
@@ -67,7 +67,7 @@ const laws = [
     lawNumber: 5,
     title: "So Much Depends on Reputation: Guard It with Your Life",
     summary:
-      "Your reputation is the cornerstone of your power. Protect it and use it to intimidate and win.",
+      "Your reputation is the cornerstone of your power and influence. It precedes you into every room and colors how people interpret your actions. A solid reputation can open doors, while a damaged one can close them permanently. Once lost, reputation is extremely difficult to rebuild, so protecting it should be your highest priority.",
     actionItems: [
       "Google yourself monthly to monitor your online reputation",
       "Always respond publicly to attacks within 24 hours",
@@ -682,6 +682,11 @@ const laws = [
       "Ask 'How do you feel about this?' not just 'What do you think?'",
       "Make people feel heard before trying to change their minds",
     ],
+    watchFor: [
+      "People who use emotional manipulation to bypass your rational thinking",
+      "Those who share calculated personal stories to create false intimacy",
+      "Individuals who appeal to your emotions when logic doesn't support them",
+    ],
   },
   {
     lawNumber: 44,
@@ -692,6 +697,11 @@ const laws = [
       "Copy your competitor's successful strategies with improvements",
       "Use their own words against them in debates",
       "Adopt their communication style to confuse their supporters",
+    ],
+    watchFor: [
+      "People who mirror your behavior to disarm and confuse you",
+      "Those who adopt your methods and turn them against you",
+      "Individuals who copy your style to undermine your originality",
     ],
   },
   {
@@ -704,6 +714,11 @@ const laws = [
       "Keep some familiar elements while introducing new ones",
       "Frame changes as 'evolution' not 'revolution'",
     ],
+    watchFor: [
+      "People who push for dramatic changes to create chaos they can exploit",
+      "Those who use 'urgent reform' to justify bypassing normal processes",
+      "Individuals who benefit from disruption while others bear the costs",
+    ],
   },
   {
     lawNumber: 46,
@@ -714,6 +729,11 @@ const laws = [
       "Admit to harmless weaknesses like being bad at cooking",
       "Share embarrassing but endearing stories about yourself",
       "Make small, visible mistakes that don't affect your core competency",
+    ],
+    watchFor: [
+      "People who display calculated flaws to appear more trustworthy",
+      "Those who use false humility to disarm your defenses",
+      "Individuals whose 'mistakes' seem strategically timed and beneficial",
     ],
   },
   {
@@ -727,6 +747,11 @@ const laws = [
       "Stop negotiating once you've gotten what you wanted",
       "Don't humiliate defeated opponents - leave them dignity",
     ],
+    watchFor: [
+      "People who push for total victory when compromise would suffice",
+      "Those who humiliate defeated opponents to create future enemies",
+      "Individuals who don't know when to stop and overreach their position",
+    ],
   },
   {
     lawNumber: 48,
@@ -737,6 +762,11 @@ const laws = [
       "Change your approach when current methods aren't working",
       "Avoid creating predictable routines that others can exploit",
       "Stay flexible enough to pivot when circumstances change",
+    ],
+    watchFor: [
+      "People who are too adaptable and lack consistent principles",
+      "Those who change positions frequently to avoid accountability",
+      "Individuals who use 'flexibility' to justify unreliable behavior",
     ],
   },
 ];
