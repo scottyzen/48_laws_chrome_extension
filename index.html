@@ -14,22 +14,25 @@
     
     <div class="number-strip max-w-6xl p-4" id="number-strip" role="navigation" aria-label="Law selection navigation"></div>
     <div class="max-w-6xl p-4 min-h-[500px]">
-      <div class="law-header flex items-center mb-4 gap-2">
-        <div id="law-number" class="text-red-500 text-sm" aria-label="Law number"></div>
+      <div class="law-header flex items-center gap-2">
+        <div id="law-number" class="text-red-500 text-sm aria-label="Law number"></div>
         <button id="favorite-btn" class="favorite-btn" aria-label="Toggle favorite" title="Add to favorites">
           <span class="favorite-icon">☆</span>
         </button>
       </div>
       <h1 id="law-title" class="text-4xl mb-12 max-w-3xl text-balance" role="heading" aria-level="1"></h1>
-      <div class="grid gap-16 lg:gap-24 md:grid-cols-2">
+      <div class="grid gap-16 lg:gap-24 lg:grid-cols-3 md:grid-cols-2">
         <div class="text-left">
-          <h2 class="text-red-500 text-sm" role="heading" aria-level="2">Summary</h2>
+          <h2 class="text-red-500 text-sm mb-2" role="heading" aria-level="2">Summary</h2>
           <p id="law-summary" class="text-lg text-balance"></p>
         </div>
-        <div class="key-takeaways" id="key-takeaways">
-          <h2 class="text-red-500 text-sm" role="heading" aria-level="2">Takeaways
-          </h2>
-          <ul id="takeaways-list" class="list-disc pl-4 text-lg" role="list"></ul>
+        <div class="action-items" id="action-items">
+          <h2 class="text-red-500 text-sm mb-2 role="heading" aria-level="2">Takeaways</h2>
+          <ul id="action-items-list" class="list-disc pl-4 text-lg" role="list"></ul>
+        </div>
+        <div class="watch-for" id="watch-for">
+          <h2 class="text-red-500 text-sm mb-2 role="heading" aria-level="2">What to Watch For</h2>
+          <ul id="watch-for-list" class="list-disc pl-4 text-lg" role="list"></ul>
         </div>
       </div>
       </div>

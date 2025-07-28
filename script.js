@@ -69,19 +69,30 @@ function showSpecificLaw(lawNumber) {
   const lawNumberElement = document.getElementById("law-number");
   const titleElement = document.getElementById("law-title");
   const summaryElement = document.getElementById("law-summary");
-  const takeawaysListElement = document.getElementById("takeaways-list");
+  const actionItemsListElement = document.getElementById("action-items-list");
+  const watchForListElement = document.getElementById("watch-for-list");
 
   lawNumberElement.textContent = `Law ${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
 
   // Update action items
-  takeawaysListElement.innerHTML = "";
+  actionItemsListElement.innerHTML = "";
   if (law.actionItems && law.actionItems.length > 0) {
     law.actionItems.forEach((item) => {
       const li = document.createElement("li");
       li.textContent = item;
-      takeawaysListElement.appendChild(li);
+      actionItemsListElement.appendChild(li);
+    });
+  }
+
+  // Update watch for items
+  watchForListElement.innerHTML = "";
+  if (law.watchFor && law.watchFor.length > 0) {
+    law.watchFor.forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      watchForListElement.appendChild(li);
     });
   }
 
@@ -219,19 +230,30 @@ function showLaw() {
   const lawNumberElement = document.getElementById("law-number");
   const titleElement = document.getElementById("law-title");
   const summaryElement = document.getElementById("law-summary");
-  const takeawaysListElement = document.getElementById("takeaways-list");
+  const actionItemsListElement = document.getElementById("action-items-list");
+  const watchForListElement = document.getElementById("watch-for-list");
 
   lawNumberElement.textContent = `Law #${law.lawNumber}`;
   titleElement.textContent = law.title;
   summaryElement.textContent = law.summary;
 
   // Update action items
-  takeawaysListElement.innerHTML = "";
+  actionItemsListElement.innerHTML = "";
   if (law.actionItems && law.actionItems.length > 0) {
     law.actionItems.forEach((item) => {
       const li = document.createElement("li");
       li.textContent = item;
-      takeawaysListElement.appendChild(li);
+      actionItemsListElement.appendChild(li);
+    });
+  }
+
+  // Update watch for items
+  watchForListElement.innerHTML = "";
+  if (law.watchFor && law.watchFor.length > 0) {
+    law.watchFor.forEach((item) => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      watchForListElement.appendChild(li);
     });
   }
 

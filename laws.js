@@ -9,6 +9,11 @@ const laws = [
       "Notice when you're about to overshadow someone in authority",
       "Ask your superior for advice even when you know the answer",
     ],
+    watchFor: [
+      "Subordinates who constantly highlight their achievements around you",
+      "People who make you feel incompetent or threatened by their skills",
+      "Team members who take credit for successes without acknowledging leadership",
+    ],
   },
   {
     lawNumber: 2,
@@ -19,6 +24,11 @@ const laws = [
       "Keep work conversations with friends strictly professional",
       "Notice when friends become envious of your success",
       "Consider hiring someone who previously opposed you",
+    ],
+    watchFor: [
+      "Friends who become distant when you succeed",
+      "Close allies who gossip about your decisions to others",
+      "People who use your friendship to gain insider information",
     ],
   },
   {
@@ -31,6 +41,11 @@ const laws = [
       "Give vague answers when asked about your future goals",
       "Create small false trails to mislead competitors",
     ],
+    watchFor: [
+      "People who ask too many detailed questions about your projects",
+      "Colleagues who share false information to see if it gets back to them",
+      "Those who pump you for information while revealing nothing about themselves",
+    ],
   },
   {
     lawNumber: 4,
@@ -41,6 +56,11 @@ const laws = [
       "Count to three before responding in conversations",
       "Never fill awkward silences - let others do it",
       "Answer questions with questions when possible",
+    ],
+    watchFor: [
+      "People who try to make you talk by creating uncomfortable silences",
+      "Those who ask rapid-fire questions to make you reveal too much",
+      "Individuals who seem to hang on your every word - they might be gathering information",
     ],
   },
   {
@@ -53,6 +73,11 @@ const laws = [
       "Always respond publicly to attacks within 24 hours",
       "Build relationships with people who can vouch for your character",
     ],
+    watchFor: [
+      "People spreading rumors or negative stories about you",
+      "Competitors trying to associate your name with failures or scandals",
+      "Social media attacks designed to damage your professional image",
+    ],
   },
   {
     lawNumber: 6,
@@ -63,6 +88,11 @@ const laws = [
       "Wear one distinctive item that people remember you by",
       "Share contrarian opinions in meetings to spark debate",
       "Post content that generates comments, not just likes",
+    ],
+    watchFor: [
+      "Colleagues who try to steal your spotlight or unique ideas",
+      "People who deliberately ignore your contributions in meetings",
+      "Others copying your distinctive style or approach",
     ],
   },
   {
@@ -75,6 +105,11 @@ const laws = [
       "Delegate tasks but control the final presentation",
       "Hire specialists for work outside your core strengths",
     ],
+    watchFor: [
+      "Bosses who take credit for your ideas without acknowledgment",
+      "Team members who present your work as their own",
+      "People who delegate everything to you but present the results as theirs",
+    ],
   },
   {
     lawNumber: 8,
@@ -85,6 +120,11 @@ const laws = [
       "Never chase clients - create offers that make them approach you",
       "Post valuable content and let people ask for more details",
       "Schedule meetings at your location whenever possible",
+    ],
+    watchFor: [
+      "People who dangle opportunities to make you chase them",
+      "Those who make you travel to them for every meeting",
+      "Individuals who create artificial scarcity to increase their perceived value",
     ],
   },
   {
@@ -97,6 +137,11 @@ const laws = [
       "When someone doubts you, prove them wrong with performance",
       "Avoid debates - just outperform your critics",
     ],
+    watchFor: [
+      "People who try to drag you into pointless arguments",
+      "Those who challenge your methods instead of focusing on results",
+      "Individuals who use debates to waste your time and energy",
+    ],
   },
   {
     lawNumber: 10,
@@ -107,6 +152,11 @@ const laws = [
       "Notice when someone consistently complains - limit contact",
       "Spend more time with people who are winning at life",
       "Leave conversations immediately when they turn to gossip",
+    ],
+    watchFor: [
+      "Chronic complainers who drain your energy with their problems",
+      "People who only contact you when they need something or feel bad",
+      "Those who try to bring you down to their level of misery",
     ],
   },
   {
@@ -119,6 +169,11 @@ const laws = [
       "Never fully train your replacement",
       "Be the only person who knows certain critical passwords or processes",
     ],
+    watchFor: [
+      "People who try to learn all your skills to replace you",
+      "Colleagues who create dependencies to control you",
+      "Those who hoard information to make themselves indispensable",
+    ],
   },
   {
     lawNumber: 12,
@@ -129,6 +184,11 @@ const laws = [
       "Admit to a small mistake to build trust before a bigger move",
       "Buy lunch for people you're about to negotiate with",
       "Share one genuine secret to encourage others to share theirs",
+    ],
+    watchFor: [
+      "People who are suddenly generous before asking for big favors",
+      "Those who admit to minor flaws to seem more trustworthy",
+      "Individuals who share small secrets to encourage you to share bigger ones",
     ],
   },
   {
@@ -141,6 +201,11 @@ const laws = [
       "Frame your request as 'this will help you get [their goal]'",
       "Never ask for favors - always offer mutual benefit",
     ],
+    watchFor: [
+      "People who research your goals before making requests",
+      "Those who frame their needs in terms of your benefits",
+      "Individuals who suddenly show interest in your success before asking for help",
+    ],
   },
   {
     lawNumber: 14,
@@ -151,6 +216,11 @@ const laws = [
       "Ask 'How are things at work?' and listen for complaints",
       "Remember personal details people share - use them later",
       "Invite competitors for coffee to learn their strategies",
+    ],
+    watchFor: [
+      "New acquaintances who ask very personal questions quickly",
+      "People who remember every detail you share but reveal little about themselves",
+      "Those who pump you for information about your work or competitors",
     ],
   },
   {
@@ -163,6 +233,11 @@ const laws = [
       "Don't leave enemies in positions where they can retaliate",
       "If you're going to compete, aim to dominate completely",
     ],
+    watchFor: [
+      "Competitors who are trying to eliminate you completely from the market",
+      "People who cut off all your support systems when they turn against you",
+      "Those who aim to destroy your reputation, not just compete with you",
+    ],
   },
   {
     lawNumber: 16,
@@ -173,6 +248,11 @@ const laws = [
       "Don't always be available - let some calls go to voicemail",
       "Take strategic breaks from social media to create mystery",
       "Cancel some social events to make your presence more valued",
+    ],
+    watchFor: [
+      "People who are suddenly less available to create artificial scarcity",
+      "Those who cancel meetings to make you want their attention more",
+      "Individuals who disappear strategically when you need them most",
     ],
   },
   {
@@ -186,6 +266,11 @@ const laws = [
       "Sometimes be generous, sometimes be tough - vary your approach",
       "Arrive early to some meetings, fashionably late to others",
     ],
+    watchFor: [
+      "People whose behavior is erratic and impossible to predict",
+      "Those who alternate between extreme kindness and coldness",
+      "Individuals who change their position on issues without warning",
+    ],
   },
   {
     lawNumber: 18,
@@ -198,6 +283,11 @@ const laws = [
       "Keep relationships warm with former colleagues",
       "Never turn down invitations completely - counter-offer",
     ],
+    watchFor: [
+      "People trying to isolate you from your network",
+      "Those who discourage you from attending industry events",
+      "Individuals who want to be your only source of information",
+    ],
   },
   {
     lawNumber: 19,
@@ -208,6 +298,11 @@ const laws = [
       "Research people on LinkedIn before important meetings",
       "Ask mutual connections about someone's temperament before engaging",
       "Notice who holds grudges vs. who forgives quickly",
+    ],
+    watchFor: [
+      "People who hold long-term grudges and plan elaborate revenge",
+      "Those with connections to powerful people who could retaliate",
+      "Individuals who seem harmless but have hidden influence",
     ],
   },
   {
@@ -220,6 +315,11 @@ const laws = [
       "Keep multiple job offers open during negotiations",
       "Avoid exclusive partnerships until you absolutely must",
     ],
+    watchFor: [
+      "People who pressure you to make immediate commitments",
+      "Those who try to lock you into exclusive agreements",
+      "Individuals who make time-sensitive offers to force quick decisions",
+    ],
   },
   {
     lawNumber: 21,
@@ -230,6 +330,11 @@ const laws = [
       "Ask obvious questions to make others feel superior",
       "Let people explain things you already understand",
       "Act impressed by common knowledge they share",
+    ],
+    watchFor: [
+      "People who seem less intelligent but ask very strategic questions",
+      "Those who make you feel smart while extracting information",
+      "Individuals who appear naive but somehow always get what they want",
     ],
   },
   {
@@ -242,6 +347,11 @@ const laws = [
       "Publicly accept blame to gain sympathy and support",
       "Retreat temporarily to regroup and plan your comeback",
     ],
+    watchFor: [
+      "People who surrender too easily - they might be planning something",
+      "Those who accept blame quickly to gain sympathy",
+      "Individuals who retreat strategically before mounting a comeback",
+    ],
   },
   {
     lawNumber: 23,
@@ -252,6 +362,11 @@ const laws = [
       "Work on one major project at a time instead of multitasking",
       "Invest heavily in your strongest skill rather than fixing weaknesses",
       "Choose one networking event per month and dominate it",
+    ],
+    watchFor: [
+      "Competitors who focus all their resources on defeating you specifically",
+      "People who concentrate their attacks on your single weakness",
+      "Those who put all their energy into one decisive move",
     ],
   },
   {
@@ -264,6 +379,11 @@ const laws = [
       "Credit your boss's ideas in your presentations",
       "Make your requests sound like you're helping them succeed",
     ],
+    watchFor: [
+      "People who constantly flatter you while advancing their own interests",
+      "Those who make you feel important while manipulating your decisions",
+      "Individuals who frame their requests as favors to you",
+    ],
   },
   {
     lawNumber: 25,
@@ -274,6 +394,11 @@ const laws = [
       "Develop a signature style that makes you memorable",
       "Tell stories that reinforce the image you want to project",
       "Reinvent your background narrative to support your goals",
+    ],
+    watchFor: [
+      "People whose personal story seems too polished or convenient",
+      "Those who dramatically change their image or persona",
+      "Individuals whose background doesn't quite add up under scrutiny",
     ],
   },
   {
@@ -286,6 +411,11 @@ const laws = [
       "When things go wrong, immediately identify what went wrong, not who",
       "Take credit for successes, let others own the failures",
     ],
+    watchFor: [
+      "Bosses who always have others deliver bad news while taking credit for good news",
+      "People who distance themselves from projects when they start failing",
+      "Those who find scapegoats whenever something goes wrong",
+    ],
   },
   {
     lawNumber: 27,
@@ -296,6 +426,11 @@ const laws = [
       "Create a mission statement that makes people feel part of something bigger",
       "Use 'we' language to build tribal identity",
       "Give followers symbols or phrases that unite them",
+    ],
+    watchFor: [
+      "Leaders who create artificial causes to gain devoted followers",
+      "People who use tribal language to make you feel special or chosen",
+      "Those who offer simple solutions to complex problems",
     ],
   },
   {
@@ -308,6 +443,11 @@ const laws = [
       "When entering rooms, walk directly to where you want to be",
       "Ask for more than you expect to get",
     ],
+    watchFor: [
+      "People who use boldness to mask lack of preparation",
+      "Those who make unreasonable demands to seem powerful",
+      "Individuals who confuse aggression with confidence",
+    ],
   },
   {
     lawNumber: 29,
@@ -318,6 +458,11 @@ const laws = [
       "Write down what success looks like before starting any project",
       "Create backup plans for your backup plans",
       "Always know your exit strategy before entering situations",
+    ],
+    watchFor: [
+      "People who seem to have planned for every possible outcome",
+      "Those who always have a response ready for any objection",
+      "Individuals who appear to be several steps ahead of everyone else",
     ],
   },
   {
@@ -330,6 +475,11 @@ const laws = [
       "Practice presentations until they seem spontaneous",
       "Hide the preparation and highlight the results",
     ],
+    watchFor: [
+      "People whose success seems too easy or natural",
+      "Those who never seem stressed despite massive workloads",
+      "Individuals who downplay their achievements to seem modest",
+    ],
   },
   {
     lawNumber: 31,
@@ -340,6 +490,11 @@ const laws = [
       "Present multiple proposals where all outcomes serve your interests",
       "Set the agenda for meetings so discussions follow your priorities",
       "Offer choices like 'Would Tuesday or Wednesday work better for you?'",
+    ],
+    watchFor: [
+      "People who present you with limited options that all benefit them",
+      "Those who control the agenda to steer conversations their way",
+      "Individuals who make you feel like you're choosing when options are predetermined",
     ],
   },
   {
@@ -352,6 +507,11 @@ const laws = [
       "Use aspirational language that makes people dream bigger",
       "Paint pictures of their ideal future when making proposals",
     ],
+    watchFor: [
+      "People who sell you unrealistic dreams to gain your support",
+      "Those who appeal to your fantasies rather than practical benefits",
+      "Individuals who promise transformation that seems too good to be true",
+    ],
   },
   {
     lawNumber: 33,
@@ -361,6 +521,11 @@ const laws = [
       "Notice what makes people emotional during conversations",
       "Pay attention to what people brag about - it reveals insecurities",
       "Ask 'What keeps you up at night?' and listen carefully",
+    ],
+    watchFor: [
+      "People who probe for your insecurities and emotional triggers",
+      "Those who pay unusual attention to your weaknesses",
+      "Individuals who remember and exploit your vulnerabilities",
     ],
   },
   {
@@ -374,6 +539,11 @@ const laws = [
       "Dress slightly better than everyone else in the room",
       "Speak slowly and clearly as if your words carry weight",
     ],
+    watchFor: [
+      "People who demand respect through intimidation rather than earning it",
+      "Those who use artificial displays of status to impress others",
+      "Individuals who act superior without backing it up with substance",
+    ],
   },
   {
     lawNumber: 35,
@@ -383,6 +553,11 @@ const laws = [
       "Notice when people are stressed - avoid making requests then",
       "Make important asks when people are in good moods",
       "Wait for competitors to make mistakes before making your move",
+    ],
+    watchFor: [
+      "People who always approach you at your most vulnerable moments",
+      "Those who time their requests when you're most likely to say yes",
+      "Individuals who strike when you're distracted or overwhelmed",
     ],
   },
   {
@@ -395,6 +570,11 @@ const laws = [
       "Never publicly pine for opportunities that went to others",
       "Redirect conversations away from topics that highlight your losses",
     ],
+    watchFor: [
+      "People who ignore your legitimate concerns to diminish their importance",
+      "Those who dismiss your achievements by refusing to acknowledge them",
+      "Individuals who use calculated indifference to make you feel irrelevant",
+    ],
   },
   {
     lawNumber: 37,
@@ -405,6 +585,11 @@ const laws = [
       "Make your presentations visually stunning, not just informative",
       "Use props and demonstrations instead of just talking",
       "Create photo-worthy moments at your events",
+    ],
+    watchFor: [
+      "People who use theatrics to distract from lack of substance",
+      "Those who create false impressions through elaborate presentations",
+      "Individuals who manipulate emotions through calculated spectacle",
     ],
   },
   {
@@ -417,6 +602,11 @@ const laws = [
       "Use industry jargon even if you find it silly",
       "Keep radical opinions to yourself until you have power",
     ],
+    watchFor: [
+      "People who conform publicly but undermine you privately",
+      "Those who hide their true intentions behind conventional behavior",
+      "Individuals who use conformity as camouflage for subversive actions",
+    ],
   },
   {
     lawNumber: 39,
@@ -427,6 +617,11 @@ const laws = [
       "Ask probing questions that make people defensive",
       "Stay completely calm when others get emotional",
       "Use phrases like 'Interesting perspective' to subtly provoke",
+    ],
+    watchFor: [
+      "People who deliberately provoke you to make you lose control",
+      "Those who create chaos to gain advantage in the confusion",
+      "Individuals who profit from emotional reactions and poor decisions",
     ],
   },
   {
@@ -439,6 +634,11 @@ const laws = [
       "Decline free gifts that come with unspoken expectations",
       "Question any offer that seems too good to be true",
     ],
+    watchFor: [
+      "People who offer free things to create obligation and guilt",
+      "Those who use generosity as a tool for future manipulation",
+      "Individuals who keep track of 'favors owed' for leverage",
+    ],
   },
   {
     lawNumber: 41,
@@ -450,6 +650,11 @@ const laws = [
       "Immediately change at least one visible process or tradition",
       "Establish your own metrics for success instead of using theirs",
     ],
+    watchFor: [
+      "People who constantly compare you unfavorably to your predecessor",
+      "Those who resist change by invoking the previous leader's authority",
+      "Individuals who undermine you by praising your predecessor's methods",
+    ],
   },
   {
     lawNumber: 42,
@@ -460,6 +665,11 @@ const laws = [
       "Identify who's leading the resistance to your ideas",
       "Address the ringleader directly rather than fighting the group",
       "Remove or convert the key influencer to solve multiple problems",
+    ],
+    watchFor: [
+      "People who identify you as the key obstacle to their goals",
+      "Those who target leaders rather than addressing issues with groups",
+      "Individuals who try to isolate you from your supporters",
     ],
   },
   {

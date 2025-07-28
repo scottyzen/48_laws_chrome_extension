@@ -604,12 +604,20 @@ video {
   visibility: visible;
 }
 
+.isolate {
+  isolation: isolate;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -782,6 +790,10 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:gap-24 {
     gap: 6rem;
   }
